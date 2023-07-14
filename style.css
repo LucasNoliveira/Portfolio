@@ -80,12 +80,15 @@ img {
     color: white;
 }
 
-.text-title {
-    width: 200px;
+.text .text-title, .text h2 {
     background-color: rgb(228, 197, 141);
     border-radius: 20px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.text .text-title {
+    width: 200px;
 }
 
 .text {
@@ -93,6 +96,15 @@ img {
     background-color: wheat;
     margin: 20px 200px;
     padding: 30px;
+}
+
+.text strong{
+    color: rgb(189, 18, 18);
+}
+
+.text h2 {
+    width: 600px;
+    
 }
 
 .footer {
@@ -117,5 +129,10 @@ img {
 .foot-icon {
     width: 30px;
     margin: 0 10px;
+    transition: transform 0.1s linear;
+}
+
+.foot-icon:hover {
+    transform: scale(1.2); 
 }
 
