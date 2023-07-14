@@ -103,6 +103,7 @@ img {
     background-color: wheat;
     margin: 20px 200px;
     padding: 30px;
+    border-radius: 10px;;
 }
 
 .text strong{
