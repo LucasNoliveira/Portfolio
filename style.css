@@ -11,6 +11,11 @@ body {
 
 nav {
     background-color: rgb(26, 24, 24);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 .topnav {
@@ -105,7 +110,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(26, 24, 24, 0.959);
+    background-color: rgba(26, 24, 24, 0.986);
     color: rgb(216, 202, 202);
     padding: 180px;
 }
