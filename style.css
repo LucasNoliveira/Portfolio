@@ -126,7 +126,7 @@ img {
     letter-spacing: .15em;
     margin-bottom: 10px;
     animation: 
-    typing 3.5s steps(40, end),
+    typing 3.0s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 @keyframes typing {
