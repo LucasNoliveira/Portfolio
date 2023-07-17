@@ -108,9 +108,9 @@ img {
 
 .container{
     display: flex;
+    background-color: rgba(26, 24, 24, 0.986);
     justify-content: center;
     align-items: center;
-    background-color: rgba(26, 24, 24, 0.986);
     color: rgb(216, 202, 202);
     padding: 220px;
 }
