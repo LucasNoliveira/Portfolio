@@ -216,32 +216,32 @@ img {
     margin-right: 50px;
     margin-top: 15px;
     cursor: pointer;
-    transition: 150ms ease;
+    transition: 200ms ease;
 }
 
-#jujutsu{
+.anime-items:nth-child(1){
     background-image: url(img/jujutsu.jfif);
     background-size: cover;
 }
-#naruto{
+.anime-items:nth-child(2){
     background-image: url(img/naruto-img.jpg);
     background-size: cover;
 }
-#shingeki{
+.anime-items:nth-child(3){
     background-image: url(img/shingeki.jpeg);
     background-size: cover;
 }
-#kimetsu{
+.anime-items:nth-child(4){
     background-image: url(img/kimetsu.jpeg);
     background-size: cover;
 }
-#hero{
+.anime-items:nth-child(5){
     background-image: url(img/hero.jpeg);
     background-size: cover;
 }
 
 .anime-items:hover{
-    width: 180px;
+    width: 15%;
     height: 100%;
 }
 
