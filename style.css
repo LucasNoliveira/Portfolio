@@ -168,7 +168,8 @@ img {
     background-color: rgba(245, 222, 179, 0.445);
     margin: 20px 200px;
     padding: 30px;
-    border-radius: 10px;;
+    border-radius: 10px;
+    min-width: 300px;
 }
 
 .text strong{
