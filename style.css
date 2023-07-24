@@ -200,7 +200,7 @@ img {
 }
 
 .anime{
-    display: flex;
+    display: grid;
     width: 100%;
     height: 250px;
     background-color: rgba(223, 223, 214, 0.356);
@@ -208,15 +208,15 @@ img {
     margin-bottom: 30px;
     box-shadow: 2px 2px 3px rgba(59, 57, 57, 0.61);
     justify-content: center;
+    grid-template-columns: repeat(5, 0.16fr);
+    grid-template-rows: auto;
 }
 
-.anime-items {
-    background-color: rgb(0, 0, 0, 0.2);
-    height: 85%;
+.anime-items{
+    margin-top: 12px;
+    background-color: tomato;
     width: 150px;
-    margin-right: 50px;
-    margin-top: 15px;
-    cursor: pointer;
+    height: 90%;
     transition: 200ms ease;
 }
 
@@ -244,6 +244,7 @@ img {
 .anime-items:hover{
     width: 180px;
     height: 100%;
+    cursor: pointer;
 }
 
 .footer {
