@@ -209,10 +209,33 @@ img {
     margin-right: 50px;
     margin-top: 15px;
     cursor: pointer;
+    transition: 150ms ease;
 }
 
-.anime-itens:hover{
-    height: 200px;
+#jujutsu{
+    background-image: url(img/jujutsu.jfif);
+    background-size: cover;
+}
+#naruto{
+    background-image: url(img/naruto-img.jpg);
+    background-size: cover;
+}
+#shingeki{
+    background-image: url(img/shingeki.jpeg);
+    background-size: cover;
+}
+#kimetsu{
+    background-image: url(img/kimetsu.jpeg);
+    background-size: cover;
+}
+#hero{
+    background-image: url(img/hero.jpeg);
+    background-size: cover;
+}
+
+.anime-items:hover{
+    width: 180px;
+    height: 100%;
 }
 
 .footer {
