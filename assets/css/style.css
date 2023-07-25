@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 nav {
-    background-color: rgb(26, 24, 24);
+    background-color: #18171D;
     position: fixed;
     top: 0;
     left: 0;
@@ -119,6 +119,8 @@ img {
 .container{
     display: flex;
     background-color: rgba(26, 24, 24, 0.986);
+    background-image: url(img/main.jpg);
+    background-size: cover;
     justify-content: center;
     align-items: center;
     color: rgb(216, 202, 202);
