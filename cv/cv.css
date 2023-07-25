@@ -6,5 +6,43 @@
 
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(240, 245, 255);
 }
+
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 100vh;
+}
+
+.sidebar .header{
+    display: flex;
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    height: 45%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header img{
+    margin-top: 20px;
+    width: 40%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.header h1{
+    color: rgb(20, 197, 188);
+}
+.header h2{
+    color: rgb(209, 255, 253);
+    font-size: 20px;
+}
+
+.skill-items{
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
 
