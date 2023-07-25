@@ -6,11 +6,13 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 65.2%;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
+    font-size: 1.6rem;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -129,6 +131,7 @@ img {
 }
 
 .lucas{
+    text-transform: uppercase;
     color: rgb(255, 207, 148);
     overflow: hidden;
     white-space: nowrap;
