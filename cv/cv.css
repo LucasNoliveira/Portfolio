@@ -12,7 +12,7 @@ html{
 .sidebar{
     background-color: rgb(0, 0, 0);
     width: 30%;
-    height: 100vh;
+    height: 100%;
 }
 
 .sidebar .header{
@@ -44,5 +44,6 @@ html{
     list-style: none;
     padding: 10px;
 }
+
 
 
