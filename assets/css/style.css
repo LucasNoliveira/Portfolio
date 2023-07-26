@@ -242,8 +242,9 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: rgba(245, 222, 179, 0.445);
-    height: 85vh;
+    height: 81vh;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .text strong{
@@ -254,10 +255,6 @@ img {
     width: 600px;
     font-size: 20px;
     padding: 10px;
-}
-
-.text-items:last-child{
-    align-items: end;
 }
 
 .resume{
