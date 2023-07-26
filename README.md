@@ -13,8 +13,10 @@ Possui a função de servir como portifólio pessoal, com informações técnica
 Por enquanto, o site está apenas com Front-End. Tecnologias Back-End serão implementadas futuramente conforme eu evoluir meus estudos
 
 # Tecnologias Utilizadas (até agora)
-- HTML
-- CSS
+<div style="display: flex; flex-wrap: wrap;">
+  <img height="25em" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img height="25em" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</div>
 
 # Como Utilizar
 1. Faça um clone deste repositório:
