@@ -327,7 +327,6 @@ img {
 .anime-items:nth-child(1) {
     background-image: url(img/jujutsu.jfif);
     background-size: cover;
-    overflow: visible;
 }
 
 .anime-items:nth-child(2) {
