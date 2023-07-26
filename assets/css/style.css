@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     font-size: 65.2%;
 }
@@ -15,7 +15,7 @@ body {
     font-size: 1.6rem;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -70,7 +70,7 @@ img {
     transition: width 0.3s ease;
 }
 
-.input-container button{
+.input-container button {
     background-color: #fd437b;
     color: rgb(243, 225, 225);
     cursor: pointer;
@@ -121,7 +121,7 @@ img {
     border-radius: 1rem;
 }
 
-.container{
+.container {
     display: flex;
     background-color: rgba(26, 24, 24, 0.986);
     background-image: url(img/main.jpg);
@@ -143,7 +143,7 @@ img {
     white-space: nowrap;
     overflow: hidden;
     width: 17rem;
-    animation: type 1.5s steps(40,end) forwards;
+    animation: type 1.5s steps(40, end) forwards;
 }
 
 .container h1:nth-child(2) {
@@ -152,52 +152,52 @@ img {
     margin: 0 auto auto auto;
     background: rgb(168, 162, 164);
     font-weight: 800;
-    font-size: 10rem;  
+    font-size: 10rem;
     width: 43rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
-    animation: shring-animation 1.5s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+    animation: shring-animation 1.5s steps(40, end) 2s forwards, blink .5s step-end infinite alternate;
 }
 
 @keyframes shring-animation {
     0% {
-    background-position: 0 0;
-    opacity: 0;
-    width: 0;
+        background-position: 0 0;
+        opacity: 0;
+        width: 0;
     }
     1% {
-    background-position: 0 0;
-    opacity: 1;
-    border-right: 1px solid rgb(255, 255, 255);
+        background-position: 0 0;
+        opacity: 1;
+        border-right: 1px solid rgb(255, 255, 255);
     }
     50% {
-    background-position: 150px 0;
-    opacity: 1;
-    border-right: 1px solid rgb(255, 255, 255);
+        background-position: 150px 0;
+        opacity: 1;
+        border-right: 1px solid rgb(255, 255, 255);
     }
     100% {
-    background-position: 400px 0;
-    opacity: 1;
-    border-right: 1px solid rgb(255, 255, 255);
+        background-position: 400px 0;
+        opacity: 1;
+        border-right: 1px solid rgb(255, 255, 255);
     }
 }
 
 @keyframes type {
     0% {
-    width: 0;
+        width: 0;
     }
     1%, 99%{
-    border-right: 1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
     }
     100%{
-    border-right: none;
+        border-right: none;
     }
 }
 
 @keyframes blink {
     50% {
-    border-color: transparent;
+        border-color: transparent;
     }
 }
 
@@ -205,7 +205,7 @@ img {
     text-align: center;
 }
 
-.content .iam{
+.content .iam {
     display: flex;
     padding: 0;
     text-align: left;
@@ -214,7 +214,7 @@ img {
     font-weight: 300;
 }
 
-.lucas{
+.lucas {
     font-weight: 700;
     text-transform: uppercase;
     color: rgb(255, 207, 148);
@@ -224,7 +224,7 @@ img {
     font-size: 12vh;
 }
 
-.container h2{
+.container h2 {
     display: inline;
     border-radius: 1rem;
     padding: 1rem;
@@ -252,7 +252,7 @@ img {
     gap: 1rem;
 }
 
-.text strong{
+.text strong {
     color: rgb(196, 53, 53);
 }
 
@@ -262,24 +262,29 @@ img {
     padding: 1rem;
 }
 
-.resume{
+.resume {
     margin-top: 2rem;
 }
 
-.resume h2{
+.resume h2 {
     font-size: 2rem;
     text-align: left;
     padding: 1rem;
 }
 
-.anime-title{
+#anime {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.anime-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     margin: 2.5rem;
     color: rgba(0, 0, 0, 0.822);
 }
 
-.anime{
+.anime {
     display: grid;
     width: 100%;
     height: 25rem;
@@ -292,7 +297,7 @@ img {
     grid-template-rows: auto;
 }
 
-.anime-items{
+.anime-items {
     margin-top: 1.2rem;
     background-color: tomato;
     width: 15rem;
@@ -300,28 +305,32 @@ img {
     transition: 200ms ease;
 }
 
-.anime-items:nth-child(1){
+.anime-items:nth-child(1) {
     background-image: url(img/jujutsu.jfif);
     background-size: cover;
 }
-.anime-items:nth-child(2){
+
+.anime-items:nth-child(2) {
     background-image: url(img/naruto-img.jpg);
     background-size: cover;
 }
-.anime-items:nth-child(3){
+
+.anime-items:nth-child(3) {
     background-image: url(img/shingeki.jpeg);
     background-size: cover;
 }
-.anime-items:nth-child(4){
+
+.anime-items:nth-child(4) {
     background-image: url(img/kimetsu.jpeg);
     background-size: cover;
 }
-.anime-items:nth-child(5){
+
+.anime-items:nth-child(5) {
     background-image: url(img/hero.jpeg);
     background-size: cover;
 }
 
-.anime-items:hover{
+.anime-items:hover {
     width: 18rem;
     height: 100%;
     cursor: pointer;
