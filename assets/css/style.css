@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 :target:before {
     content: "";
     display: block;
-    height: 12rem; /* Ajuste esse valor conforme a altura da sua topnav */
+    height: 12rem;
     margin: -12rem 0 0; }
 
 nav {
@@ -327,6 +327,7 @@ img {
 .anime-items:nth-child(1) {
     background-image: url(img/jujutsu.jfif);
     background-size: cover;
+    overflow: visible;
 }
 
 .anime-items:nth-child(2) {
@@ -350,9 +351,10 @@ img {
 }
 
 .anime-items:hover {
-    width: 18rem;
-    height: 100%;
+    width: 19rem;
+    height: 110%;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .footer {
