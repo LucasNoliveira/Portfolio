@@ -32,20 +32,20 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
 }
 
 .topnav .nome {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
 }
 
 .nav-logo {
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
     background-color: rgba(0, 0, 0, 0.486);
-    border-radius: 100px;
+    border-radius: 10rem;
 }
 
 .nome {
@@ -53,20 +53,20 @@ nav {
     align-items: end;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-wrap: nowrap;
     white-space: nowrap;
 }
 
 img {
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .input-container {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 30rem;
     transition: width 0.3s ease;
 }
 
@@ -74,25 +74,25 @@ img {
     background-color: #fd437b;
     color: rgb(243, 225, 225);
     cursor: pointer;
-    width: 80px;
-    padding: 8px;
-    border-radius: 20px;
+    width: 8rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
     border: none;
-    margin-left: 10px;
+    margin-left: 1rem;
     transition: transform 0.1s linear;
 }
 
 .input-site {
     width: 100%;
-    padding: 8px;
+    padding: 0.8rem;
     border: 1px solid rgba(128, 128, 128, 0);
-    font-size: 16px;
-    border-radius: 20px;
+    font-size: 1.6rem;
+    border-radius: 2rem;
     outline: none;
 }
 
 .input-container:hover {
-    width: 400px;
+    width: 40rem;
 }
 
 .topnav ul {
@@ -102,7 +102,7 @@ img {
 }
 
 .topnav ul li {
-    margin-left: 10px;
+    margin-left: 1rem;
     white-space: nowrap;
 }
 
@@ -111,14 +111,14 @@ img {
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(187, 180, 180);
-    margin-left: 20px;
-    padding: 10px;
+    margin-left: 2rem;
+    padding: 1rem;
 }
 
 .topnav ul li a:hover {
     background-color: #111014;
     color: #fd437b;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .container{
@@ -137,12 +137,12 @@ img {
     color: #0b798d;
     font-family: 'Fira Code', monospace;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 2rem;
     margin: 0 0 0 35%;
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
-    width: 170px;
+    width: 17rem;
     animation: type 1.5s steps(40,end) forwards;
 }
 
@@ -152,8 +152,8 @@ img {
     margin: 0 auto auto auto;
     background: rgb(168, 162, 164);
     font-weight: 800;
-    font-size: 100px;  
-    width: 430px;
+    font-size: 10rem;  
+    width: 43rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
@@ -226,30 +226,30 @@ img {
 
 .container h2{
     display: inline;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .text .text-title, .text h2 {
     background-color: rgba(41, 40, 38, 0.103);
-    border-radius: 20px;
-    margin-bottom: 10px;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .text .text-title {
-    width: 200px;
+    width: 20rem;
 }
 
 .text {
-    padding: 80px;
+    padding: 8rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: rgba(245, 222, 179, 0.445);
     height: 81vh;
     justify-content: space-between;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .text strong{
@@ -257,35 +257,35 @@ img {
 }
 
 .text h2 {
-    width: 600px;
-    font-size: 20px;
-    padding: 10px;
+    width: 60rem;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 .resume{
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .resume h2{
-    font-size: 20px;
+    font-size: 2rem;
     text-align: left;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .anime-title{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    margin: 25px;
+    margin: 2.5rem;
     color: rgba(0, 0, 0, 0.822);
 }
 
 .anime{
     display: grid;
     width: 100%;
-    height: 250px;
+    height: 25rem;
     background-color: #18171D;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 1rem;
+    margin-bottom: 3rem;
     box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.61);
     justify-content: center;
     grid-template-columns: repeat(5, 0.16fr);
@@ -293,9 +293,9 @@ img {
 }
 
 .anime-items{
-    margin-top: 12px;
+    margin-top: 1.2rem;
     background-color: tomato;
-    width: 150px;
+    width: 15rem;
     height: 90%;
     transition: 200ms ease;
 }
@@ -322,7 +322,7 @@ img {
 }
 
 .anime-items:hover{
-    width: 180px;
+    width: 18rem;
     height: 100%;
     cursor: pointer;
 }
@@ -332,7 +332,7 @@ img {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 5rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     background-color: rgb(26, 24, 24);
@@ -347,7 +347,7 @@ img {
 }
 
 .foot-icon {
-    width: 30px;
+    width: 3rem;
     margin: 0 10px;
     transition: transform 0.1s linear;
 }
