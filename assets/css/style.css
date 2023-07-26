@@ -22,8 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 :target:before {
     content: "";
     display: block;
-    height: 11rem;
-    margin: -11rem 0 0; }
+    height: 11.5rem;
+    margin: -11.5rem 0 0; }
 
 nav {
     background-color: #18171D;
