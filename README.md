@@ -1,5 +1,6 @@
 # Landing Page - Portfolio
-![Captura de tela 2023-07-26 152220](https://github.com/LucasNoliveira/Portfolio/assets/83134855/76237736-1c89-4960-baf2-7c2d54111d32)
+![Captura de tela 2023-07-26 185452](https://github.com/LucasNoliveira/Portfolio/assets/83134855/cd9b1d29-a060-4d76-8840-094804bea2f5)
+
 
 # Visão Geral
 Este é o repositório do meu portfólio, onde compartilho informações sobre mim, meus projetos e habilidades como programador Front-End. Nesta landing page, apresento meu nome, profissão e uma breve descrição sobre mim.
