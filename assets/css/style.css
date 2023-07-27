@@ -353,7 +353,7 @@ img {
     width: 19rem;
     height: 110%;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 998;
 }
 
 .footer {
