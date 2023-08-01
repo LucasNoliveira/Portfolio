@@ -91,9 +91,10 @@
 }
 
 .projects{
+    color: white;
     height: 100vh;
     padding: var(--container-padding);
-    background-image: url(img/polygon-scatter-haikei.svg);
+    background-image: url(img/Meteor.svg);
     background-size: cover;
     margin-bottom: 100px;
 }
