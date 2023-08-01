@@ -5,10 +5,11 @@
 
 .topnav{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: #f3f3f;
     justify-content: space-between;
     width: 100%;
     position: fixed;
+    z-index: 100;
 }
 
 .topnav .logo{
@@ -33,6 +34,7 @@
 
 .main-container{
     width: 100%;
+    background-color: #f3f3f3;
 }
 
 .main-container h1{
@@ -57,10 +59,12 @@
     margin-top: 1rem;
     width: 165px;
     position: relative;
+    transition: 150ms;
 }
 
 .main-container a:hover{
-    background-color: rgb(253, 53, 17);
+    background-color: #fd3511;
+    border-radius: .8rem;
 }
 
 .main-container .eu{
@@ -68,6 +72,12 @@
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.eu:hover{
+    transform: scale(120%);
 }
 
 .main-content{
@@ -78,4 +88,12 @@
 }
 
 .about{
+}
+
+.projects{
+    height: 100vh;
+    padding: var(--container-padding);
+    background-image: url(img/polygon-scatter-haikei.svg);
+    background-size: cover;
+    margin-bottom: 100px;
 }
