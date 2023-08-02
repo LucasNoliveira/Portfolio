@@ -5,7 +5,7 @@
 
 .topnav{
     display: flex;
-    background-color: #f3f3f;
+    background-color: #f3f3f3;
     justify-content: space-between;
     width: 100%;
     position: fixed;
@@ -53,12 +53,12 @@
     background-color: tomato;
     color: #ffffff;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem 1rem;
+    flex-wrap: nowrap;
     margin-top: 1rem;
-    width: 165px;
-    position: relative;
+    width: 12rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
     transition: 150ms;
 }
 
