@@ -33,6 +33,8 @@ h2{
 
 .topnav{
     display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
     background-color: var(--white-bg);
     justify-content: space-between;
     width: 100%;
@@ -54,7 +56,6 @@ h2{
 .topnav .nav-items{
     color: rgb(0, 0, 0);
     padding: 1rem;
-    /* margin: 0 15px; */
     position: relative;
 }
 .topnav .nav-items:hover{
@@ -189,7 +190,7 @@ fieldset{
     align-items: center;
     width: 100%;
     height: 100vh;
-    border: none;
+    border: 1px solid yellow;
 }
 
 fieldset .form-input{
@@ -214,9 +215,6 @@ fieldset .form-input:hover{
 
 fieldset label{
     color: white;
-}
-
-fieldset label{
     margin-right: 15px;
 }
 
@@ -249,7 +247,7 @@ fieldset .text-button{
     border: 0;
 }
 fieldset .text-button:hover{
-    background-color: var(--tomato-hover);
+    background-color: rgba(255, 99, 71, 0.808);
 
 }
 
@@ -269,4 +267,10 @@ footer {
 
 .footer-icons:hover{
     transform: scale(140%);
+}
+
+@media (max-width:950px){
+    .main-container .eu{
+        display: none;
+    }
 }
