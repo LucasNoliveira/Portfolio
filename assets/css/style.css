@@ -149,4 +149,9 @@ footer {
 .footer-icons{
     width: 2rem;
     margin: 0 .5rem;
+    transition: all ease 100ms;
+}
+
+.footer-icons:hover{
+    transform: scale(140%);
 }
