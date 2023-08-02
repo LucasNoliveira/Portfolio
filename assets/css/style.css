@@ -85,8 +85,12 @@ h2{
 }
 
 .main-container{
+    display: flex;
     width: 100vw;
+    height: 100vh;
     background-color: var(--white-bg);
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container p{
@@ -119,6 +123,7 @@ h2{
     border-radius: 50%;
     transition: 200ms ease-in-out;
     cursor: pointer;
+    align-self: flex-end;
 }
 
 .eu:hover{
@@ -126,11 +131,11 @@ h2{
 }
 
 .main-content{
+    margin: 0 auto;
     display: grid;
+    width: 70vw;
     grid-template-columns: repeat(2,1fr);
     column-gap: 6rem;
-    padding: var(--container-padding);
-    position: relative;
 }
 
 .about span {
