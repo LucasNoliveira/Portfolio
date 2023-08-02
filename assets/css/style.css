@@ -137,6 +137,12 @@ h2{
     width: 70vw;
     grid-template-columns: repeat(2,1fr);
     column-gap: 6rem;
+    position: relative;
+    top: 1rem;
+}
+
+.about{
+    position: relative;
 }
 
 .about span {
@@ -269,7 +275,17 @@ footer {
     transform: scale(140%);
 }
 
-@media (max-width:950px){
+@media (max-width: 1350px) {
+    .main-content{
+        top: .5rem;
+    }
+}
+
+@media (max-width:1000px){
+    .main-container{
+        display: block;
+    }
+
     .main-container .eu{
         display: none;
     }
