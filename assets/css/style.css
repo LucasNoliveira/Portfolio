@@ -23,6 +23,7 @@ h2{
     width: 100%;
     position: fixed;
     z-index: 100;
+    border-bottom: 1px solid #e6e3e3;
 }
 
 .topnav .logo{
@@ -92,11 +93,9 @@ h2{
     grid-template-columns: repeat(2,1fr);
     column-gap: 6rem;
     padding: var(--container-padding);
-    border: 1px solid red;
 }
 
 .about{
-    border: 1px solid red;
 }
 
 .resume-buttons{
