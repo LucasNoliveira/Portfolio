@@ -286,6 +286,10 @@ footer {
         display: block;
     }
 
+    .main-content{
+        display: block;
+    }
+
     .main-container .eu{
         display: none;
     }
