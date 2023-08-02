@@ -82,8 +82,8 @@ h2{
 
 .main-container .eu{
     background-color: #ddd;
-    width: 20rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 50%;
     transition: 200ms ease-in-out;
     cursor: pointer;
