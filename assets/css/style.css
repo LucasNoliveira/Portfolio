@@ -49,11 +49,6 @@ h2{
     transition: all ease-in-out 100ms;
     padding: 1rem;
 }
-.topnav .nav-items:hover{
-    background-color: #ddd;
-    border-radius: 1rem;
-}
-
 
 .main-container{
     width: 100%;
@@ -109,6 +104,10 @@ h2{
     background-size: 200% 100%;
     background-position: left bottom;
     transition: all .5s ease-in-out;
+}
+
+.about p{
+    font-family: 'Poppins', sans-serif;
 }
 .resume-buttons{
     display: flex;
