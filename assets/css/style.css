@@ -188,6 +188,8 @@ h2{
     height: 100vh;
     background-color: var(--white-bg);
     padding: var(--container-padding);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 fieldset{
