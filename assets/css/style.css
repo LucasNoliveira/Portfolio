@@ -88,10 +88,10 @@ h2{
 }
 
 .topnav .dark-light{
-    width: 1.5rem;
+    width: 2.5rem;
     height: 1.5rem;
     background: #000;
-    border-radius: 50%;
+    border-radius: 2rem;
     cursor: pointer;
     border: none;
 }
@@ -179,6 +179,10 @@ h2{
     height: 3.5rem;
     cursor: pointer;
     z-index: 10;
+}
+
+.arrow-top:hover{
+    opacity: 75%;
 }
 
 .projects{
