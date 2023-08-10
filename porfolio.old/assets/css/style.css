@@ -492,12 +492,10 @@ footer {
 
 @media (max-width: 1350px) {
     .topnav{
-        margin-top: -10vh;
         /* Exibe a topnav */
     }
     
     .main-container{
-        margin-top: 10vh;
     }
 
     .main-content {
