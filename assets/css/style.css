@@ -1,3 +1,10 @@
+.nav{
+    display: block;
+    background: #000;
+    width: 100%;
+    height: 14vh;
+}
+
 .topnav{
     display: flex;
     justify-content: space-between;
@@ -183,12 +190,12 @@
 .main-container{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 14vh);
     background: purple;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
-    inset: 0;
+
 }
 
 .main-content{
@@ -197,19 +204,24 @@
     background: blue;
     margin: 0 auto;
     width: 1000px;
-    position: absolute;
-    top: 8rem;
 }
 
 .main-content h1{
-    font-size: 5vw;
+    font-size: 4vw;
 }
 .main-content h2{
-    font-size: 2.5vw;
+    font-size: 2vw;
+}
+
+.summary span {
+    background: linear-gradient(to left, var(--white-bg) 50%, rgba(255, 99, 71, 0.747) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-in-out;
 }
 
 .main-content p{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .main-container .random-img {
@@ -219,10 +231,16 @@
     border-radius: 50%;
     transition: 200ms ease-in-out;
     cursor: pointer;
+    position: relative;
+    right: -5rem;
+}
+
+.random-img:hover {
+    transform: scale(120%);
 }
 
 @media screen and (max-width: 992px) {
-    .topnav{
+    .topnav, .nav{
         display:none;
     }
 
@@ -231,6 +249,30 @@
         width: 100vw;
         height: 100vh;
         background: purple;
+    }
+
+    .main-content{
+        display: flex;
+        justify-content: center;
+        width: 100vh;
+        height: 100vh;
+        
+    }
+
+    .summary{
+        padding: 2.5rem;
+        position: relative;
+        top: 15vh;
+    }
+    
+    .summary h1{
+        font-size: 12vw;
+    }
+    .summary h2{
+        font-size: 6vw;
+    }
+    .summary p{
+        font-size: 4vw;
     }
 }
 
@@ -244,4 +286,5 @@
     .random-img{
     display: none;
     
+}
 }
