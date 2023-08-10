@@ -1,0 +1,18 @@
+:root{
+    --main-bg: #F3F3F3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--main-bg);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #E6E3E3;
+    position: fixed;
+}
+
+.topnav .logo{
+    padding: 1.5rem;
+    color: blue;
+}
+
+.topnav ul{
+    display: flex;
+    position: relative;
+    top: 0;
+}
+.topnav li{
+    background: yellow;
+    padding: 2rem .5rem;
+}
+
+.topnav ul .nav-items{
+    background: #ff0000;
+    padding: .5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .topnav{
+        display:none;
+    }
+}
