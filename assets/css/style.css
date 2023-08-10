@@ -21,15 +21,18 @@
     display: flex;
     position: relative;
     top: 0;
+    padding-right: 3rem;
 }
 .topnav li{
     background: yellow;
-    padding: 2rem .5rem;
+    padding: 2rem 1rem;
 }
 
 .topnav ul .nav-items{
-    background: #ff0000;
+    background: #ff6060;
+    color: wheat;
     padding: .5rem;
+    position: relative;
 }
 
 .topnav .nav-items:hover {
