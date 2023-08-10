@@ -197,6 +197,8 @@
     background: blue;
     margin: 0 auto;
     width: 1000px;
+    position: absolute;
+    top: 8rem;
 }
 
 .main-content h1{
@@ -206,6 +208,10 @@
     font-size: 2.5vw;
 }
 
+.main-content p{
+    font-size: 2vw;
+}
+
 .main-container .random-img {
     background-color: #ddd;
     width: 22rem;
@@ -213,7 +219,6 @@
     border-radius: 50%;
     transition: 200ms ease-in-out;
     cursor: pointer;
-    align-self: flex-end;
 }
 
 @media screen and (max-width: 992px) {
@@ -233,4 +238,10 @@
     #menuToggle {
         display: none;
     }
+}
+
+@media screen and (max-width:1000px) {
+    .random-img{
+    display: none;
+    
 }
