@@ -239,10 +239,11 @@
 }
 
 .main-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: tomato;
     color: #ffffff;
-    display: flex;
-    flex-wrap: nowrap;
     margin-top: 1rem;
     padding: 1rem 1rem;
     align-items: center;
@@ -252,8 +253,8 @@
 .resume-buttons {
     display: flex;
     justify-content: flex-start;
+    gap: 1rem;
     background: forestgreen;
-    position: absolute;
 }
 
 a:hover{
@@ -311,8 +312,8 @@ a:hover{
     }
     .main-content a{
         font-size: 3vw;
-        min-width: 40vw;
-        min-height: 10vw;
+        width: 12rem;
+        height:4rem;
     }
 
 
@@ -358,10 +359,9 @@ a:hover{
         padding: 5rem;
     }
 
-    .main-content a{
+    .main-content .resume-buttons a{
         font-size: 3vw;
-        min-width: 40vw;
-        min-height: 10vw;
+        
     }
     .main-container p{
         color: aqua;
