@@ -345,13 +345,13 @@ a:hover{
     }
     
     .summary h1{
-        font-size: 10vw;
+        font-size: 10.3vw;
     }
     .summary h2{
-        font-size: 5vw;
+        font-size: 6.5vw;
     }
     .summary p{
-        font-size: 3vw;
+        font-size: 3.4vw;
         line-height: 4vh;
     }
 
@@ -387,14 +387,14 @@ a:hover{
     }
 
     .summary h1{
-        font-size: 4rem;
+        font-size: 4.75rem;
     }
     .summary h2{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .summary p{
-        font-size: 3vw;
-        line-height: 4vh;
+        font-size: 4vw;
+        line-height: 5vh;
     }
 
     .main-content a{
@@ -420,13 +420,13 @@ a:hover{
     }
 
     .summary h1{
-        font-size: 7.8vw;
+        font-size: 12vw;
     }
     .summary h2{
-        font-size: 4.5vw;
+        font-size: 6.5vw;
     }
     .summary p{
-        font-size: 2.4vw;
+        font-size: 3.8vw;
         line-height: 4vh;
     }
 
