@@ -332,6 +332,15 @@ a:hover{
 }
 
 @media screen and (max-width: 600px){
+
+    .hamburguer{
+        padding: 1.5rem;
+    }
+
+    #menuToggle input{
+        top: 1.4rem;
+        left: 1.3rem;
+    }
     
     .summary h1{
         font-size: 10vw;
