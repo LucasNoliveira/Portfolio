@@ -235,6 +235,28 @@
     right: -5rem;
 }
 
+.main-container a {
+    background-color: tomato;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    transition: 150ms;
+}
+
+.resume-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+a:hover{
+    border-radius: .8rem;
+    background: rgb(202, 36, 6);
+}
+
 .random-img:hover {
     transform: scale(120%);
 }

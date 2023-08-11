@@ -318,8 +318,6 @@ h2 {
 .resume-buttons {
     display: flex;
     gap: 1rem;
-    text-decoration: none;
-
 }
 
 .arrow-top {
