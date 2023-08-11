@@ -296,6 +296,9 @@ a:hover{
     .summary p{
         font-size: 4vw;
     }
+    .main-content a{
+        min-width: 25vw;
+    }
 }
 
 @media screen and (min-width: 992px) {
