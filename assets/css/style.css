@@ -284,17 +284,17 @@ a:hover{
         padding: 2.5rem;
         position: relative;
         height: 100vh;
-        top: 15vh;
+        top: 10vh;
     }
     
     .summary h1{
-        font-size: 13vw;
+        font-size: 12vw;
     }
     .summary h2{
-        font-size: 8vw;
+        font-size: 7vw;
     }
     .summary p{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .main-content a{
         font-size: 3vw;
