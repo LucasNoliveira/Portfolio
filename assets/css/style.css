@@ -267,23 +267,23 @@ a:hover{
     }
 
     .main-container{
+        background: yellow;
         display: flex;
         width: 100vw;
         height: 100vh;
-        background: purple;
     }
 
     .main-content{
         display: flex;
         justify-content: center;
         width: 100vh;
-        height: 100vh;
-        
+        height: 100vh;        
     }
 
     .summary{
         padding: 2.5rem;
         position: relative;
+        height: 100vh;
         top: 15vh;
     }
     

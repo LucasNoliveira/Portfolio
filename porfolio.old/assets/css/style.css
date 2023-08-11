@@ -304,12 +304,7 @@ h2 {
     position: relative;
 }
 
-.about span {
-    background: linear-gradient(to left, var(--white-bg) 50%, rgba(255, 99, 71, 0.747) 50%);
-    background-size: 200% 100%;
-    background-position: left bottom;
-    transition: all .5s ease-in-out;
-}
+
 
 .about p {
     font-family: 'Poppins', sans-serif;
