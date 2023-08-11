@@ -352,6 +352,10 @@ a:hover{
         font-size: 3vw;
         line-height: 4vh;
     }
+
+    .main-content{
+        overflow-x: hidden;
+    }
     .main-content a{
         font-size: 3vw;
         min-width: 40vw;
