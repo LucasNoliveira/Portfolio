@@ -283,7 +283,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(24, 23, 23);
+    /* background-color: rgb(24, 23, 23); */
+    border-top: 1px solid grey;
     height: 3.5rem;
 }
 
@@ -372,7 +373,7 @@ footer {
         font-size: 10.3vw;
     }
     .summary h2{
-        font-size: 6.5vw;
+        font-size: 5.5vw;
     }
     .summary p{
         font-size: 3.4vw;
@@ -399,7 +400,7 @@ footer {
 @media screen and (min-width:601px) {
     .main-content{
         background: chartreuse;
-        padding: 15%;
+        padding: 5% 10%;
         max-width: 100%;
     }
 
@@ -413,13 +414,13 @@ footer {
     }
 
     .summary h1{
-        font-size: 4.75rem;
+        font-size: 7vw;
     }
     .summary h2{
-        font-size: 2.5rem;
+        font-size: 5vw;
     }
     .summary p{
-        font-size: 4vw;
+        font-size: 2.7vw;
         line-height: 5vh;
     }
 
@@ -446,13 +447,13 @@ footer {
     }
 
     .summary h1{
-        font-size: 12vw;
+        font-size: 6vw;
     }
     .summary h2{
-        font-size: 6.5vw;
+        font-size: 4.5vw;
     }
     .summary p{
-        font-size: 3.8vw;
+        font-size: 2.2vw;
         line-height: 4vh;
     }
 
