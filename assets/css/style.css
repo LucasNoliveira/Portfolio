@@ -191,7 +191,7 @@
     display: flex;
     width: 100vw;
     height: calc(100vh - 14vh);
-    background: purple;
+    /* background: purple; */
     justify-content: space-around;
     align-items: center;
     position: relative;
@@ -201,7 +201,7 @@
 .main-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: blue;
+    /* background: blue; */
     margin: 0 auto;
 }
 
@@ -252,9 +252,10 @@
 
 .resume-buttons {
     display: flex;
+    padding-top: .5rem;
     justify-content: flex-start;
     gap: 1rem;
-    background: forestgreen;
+    /* background: forestgreen; */
 }
 
 a:hover{
@@ -279,7 +280,7 @@ a:hover{
     }
 
     .main-container{
-        background: yellow;
+        /* background: yellow; */
         display: flex;
         width: 100vw;
         height: 100vh;
@@ -364,7 +365,7 @@ a:hover{
         
     }
     .main-container p{
-        color: aqua;
+        color: rgb(0, 0, 0);
     }
 
 }
