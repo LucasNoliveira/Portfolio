@@ -374,7 +374,7 @@ footer {
     }
 
     .main-content .resume-buttons a{
-        font-size: 2.7vw;
+        font-size: 2.8vw;
         
     }
     .main-container p{
@@ -411,7 +411,7 @@ footer {
     }
 
     .main-content a{
-        font-size: 1.2rem;
+        font-size: 2.4vw;
         min-height: 4rem;
     }
 
@@ -443,7 +443,7 @@ footer {
     }
 
     .main-content a{
-        font-size: 1.2rem;
+        font-size: 2.1vw;
         min-width: 33%;
         min-height: 4rem;
     }
@@ -480,7 +480,7 @@ footer {
     }
 
     .main-content a{
-        font-size: 1.2rem;
+        font-size: 1.5vw;
         padding: 1vw 1vw;
     }
 }
