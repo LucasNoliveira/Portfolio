@@ -33,7 +33,7 @@
 }
 .topnav li{
     /* background: yellow; */
-    padding: 2rem 1rem;
+    padding: 2rem .4rem;
 }
 
 .topnav ul .nav-items{
