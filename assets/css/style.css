@@ -1,8 +1,8 @@
 .nav{
     display: block;
-    /* background: #ff0000; */
+    background: #ff0000;
     width: 100%;
-    height: 14vh;
+    height: 8.2vh;
 }
 
 .topnav{
@@ -475,7 +475,7 @@ footer {
     }
 
     .main-content a{
-        font-size: 1.5vw;
-        padding: 1vw 1vw;
+        font-size: 1.2vw;
+        padding: 1.5rem 1.2rem;
     }
 }
