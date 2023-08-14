@@ -265,12 +265,12 @@ a:hover{
 .projects{
     display: block;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 12vh);
 }
 
 .about{
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 12vh);
 }
 
 footer {
