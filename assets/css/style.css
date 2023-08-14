@@ -275,7 +275,26 @@ a:hover{
     display: block;
     width: 100vw;
     height: calc(100vh - 12vh);
+    padding: 5%;
 }
+.projects h2, .projects p{
+    color: var(--main-bg);
+}
+
+.projects h2{
+    padding: 1rem;
+    background: #0000004b;
+}
+
+.projects p{
+    padding: 1.5rem;
+}
+
+.projects a{
+    color: rgb(167, 95, 167);
+    text-decoration: underline;
+}
+
 
 .about{
     width: 100vw;
