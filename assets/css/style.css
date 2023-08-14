@@ -215,6 +215,15 @@
     font-size: 2vw;
     margin-bottom: 1rem;
 }
+.main-content span {
+    background: linear-gradient(to right, tomato 50%, #F3F3F3 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;}
+
+    .main-content span:hover {
+        background-position: left bottom;
+    }
 
 .main-content p{
     font-size: 1.5vw;
@@ -475,7 +484,8 @@ footer {
     }
 
     .main-content a{
+        display: flex;
         font-size: 1.2vw;
-        padding: 1.5rem 1.2rem;
+        
     }
 }
