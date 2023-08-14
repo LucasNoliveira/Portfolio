@@ -191,7 +191,7 @@
 .main-container{
     display: flex;
     width: 100vw;
-    height: calc(100vh - 14vh);
+    height: calc(100vh - 8.4vh);
     /* background: purple; */
     justify-content: space-around;
     align-items: center;
