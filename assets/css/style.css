@@ -215,17 +215,12 @@
     margin-bottom: 1rem;
 }
 
-.summary span {
-    background: linear-gradient(to left, var(--white-bg) 50%, rgba(255, 99, 71, 0.747) 50%);
-    background-size: 200% 100%;
-    background-position: left bottom;
-    transition: all .5s ease-in-out;
-}
-
 .main-content p{
     font-size: 1.5vw;
     line-height: 2rem;
+    font-weight: 300;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-container .random-img {
@@ -246,7 +241,6 @@
     background-color: tomato;
     color: #ffffff;
     margin-top: 1rem;
-    padding: 1rem 1rem;
     align-items: center;
     transition: 150ms;
 }
@@ -466,7 +460,7 @@ footer {
 
     .main-content{
         /* background-color: orange; */
-        padding: 10%;
+        padding: 0 10%;
     }
 
     .main-content h1{
