@@ -273,6 +273,7 @@ a:hover{
 
 .projects{
     display: block;
+    background-color: rgba(218, 217, 217, 0.5);
     width: 100vw;
     height: calc(100vh - 12vh);
     padding: 5%;
@@ -287,6 +288,7 @@ a:hover{
 }
 
 .projects p{
+    color: #111111;
     padding: 1.5rem;
 }
 
