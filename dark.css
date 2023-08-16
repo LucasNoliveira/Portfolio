@@ -1,0 +1,45 @@
+body {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#hybrid {
+    visibility: hidden;
+}
+
+#theme-toggle {
+    visibility: hidden;
+}
+
+#theme-toggle+label {
+    content: '';
+    display: inline-block;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+#theme-toggle:not(:checked)+label {
+    background-color: gold;
+}
+
+#theme-toggle:checked+label {
+    background-color: transparent;
+    box-shadow: inset -12px -9px 1px 1px #fff;
+}
+
+.theme {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    right: 1rem;
+    background-color: rgba(0, 0, 0, 0.233);
+    /* padding: .5rem .5rem .5rem .rem; */
+}
+
+body[theme=dark] {
+    h1 {
+        background-color: #ff0000;
+    }
+}

@@ -216,7 +216,7 @@
     margin-bottom: 1rem;
 }
 .main-content span {
-    background: linear-gradient(to right, tomato 50%, #F3F3F3 50%);
+    background: linear-gradient(to right, tomato 50%, #f3f3f300 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;}

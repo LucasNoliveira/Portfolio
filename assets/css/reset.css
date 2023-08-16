@@ -16,38 +16,6 @@ html{
     box-sizing: border-box;
 }
 
-.dark-theme {
-    color: white;
-    background-color: rgb(29, 33, 43);
-}
-
-.dark-theme .topnav {
-    background-color: rgb(22, 25, 32);
-    border-bottom: 1px solid #ff000000;
-}
-
-.dark-theme .nav-items:hover {
-    color: tomato; /* Cor do texto ao passar o mouse no modo escuro */
-}
-
-
-#button {
-    align-self: center;
-    margin-right: 2%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    max-width: 10rem;
-    height: 2.5rem;
-    background: #000;
-    color: wheat;
-    font-size: 1rem;
-    border: none;
-    border-radius: .8rem;
-    cursor: pointer;
-}
-
 li{
     list-style: none;
 }
