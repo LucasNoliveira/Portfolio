@@ -21,18 +21,15 @@ html{
     background-color: rgb(29, 33, 43);
 }
 
-.title{
-    color: white;
-}
-
 .dark-theme .topnav {
     background-color: rgb(22, 25, 32);
     border-bottom: 1px solid #ff000000;
 }
 
-.dark-theme .topnav a {
-    color: wheat;
+.dark-theme .nav-items:hover {
+    color: tomato; /* Cor do texto ao passar o mouse no modo escuro */
 }
+
 
 #button {
     align-self: center;
