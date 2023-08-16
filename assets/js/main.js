@@ -3,7 +3,7 @@
         const nav = document.querySelector('.nav');
         const button = document.getElementById('button');
         const randomImg = document.querySelector('.random-img');
-        const links = nav.querySelectorAll('.nav-items'); // Selecionar apenas os links dentro de .nav-items
+        const links = nav.getElementsByTagName('a'); // Selecionar apenas os links dentro de .nav-items
 
         body.classList.toggle("dark-theme");
         nav.classList.toggle('dark-theme');
