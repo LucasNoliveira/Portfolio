@@ -10,7 +10,7 @@ header{
         &::before{
             content: "";
             display: block;
-            background: #000;
+            background: #e74b4b;
             height: 20vh;
             width: 100%;
         }
@@ -78,10 +78,13 @@ header{
     padding: 5rem;
     margin: 0 auto;
     gap: 8rem;
-    position: relative;
+    position: absolute;
+    z-index: 0;
 
+    
     img{
         position: relative;
+        width: 20rem;
         border-radius: 2rem;
         top: -3rem;
     }
@@ -94,20 +97,21 @@ header{
         background: rgb(255, 255, 255);
         padding: 1.5rem;
         position: relative;
-        z-index: 2;
-
-        &::before {
-            content: '';
-            display: block;
+        z-index: 1;
+        
+        &::before{
+            content: "";
             position: absolute;
-            border: 10px solid #3532ff70;
+            outline: 10px solid rgba(0, 0, 0, 0.486);
+            outline-offset: .5rem;
+            height: 50vh;
             width: 100%;
-            height: 120%;
-            top: -2rem;
-            z-index: -10;
+            top: -1rem;
+            left: 2rem;
+            z-index: -1;
         }
     }
-
+    
     
         h2{
             color: #5956E9;

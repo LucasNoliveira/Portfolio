@@ -10,7 +10,7 @@ header {
 header::before {
   content: "";
   display: block;
-  background: #000;
+  background: #e74b4b;
   height: 20vh;
   width: 100%;
 }
@@ -64,10 +64,12 @@ header header::after {
   padding: 5rem;
   margin: 0 auto;
   gap: 8rem;
-  position: relative;
+  position: absolute;
+  z-index: 0;
 }
 .hero img {
   position: relative;
+  width: 20rem;
   border-radius: 2rem;
   top: -3rem;
 }
@@ -78,17 +80,18 @@ header header::after {
   background: rgb(255, 255, 255);
   padding: 1.5rem;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 .hero .hero-text::before {
   content: "";
-  display: block;
   position: absolute;
-  border: 10px solid rgba(53, 50, 255, 0.4392156863);
+  outline: 10px solid rgba(0, 0, 0, 0.486);
+  outline-offset: 0.5rem;
+  height: 50vh;
   width: 100%;
-  height: 120%;
-  top: -2rem;
-  z-index: -10;
+  top: -1rem;
+  left: 2rem;
+  z-index: -1;
 }
 .hero h2 {
   color: #5956E9;
