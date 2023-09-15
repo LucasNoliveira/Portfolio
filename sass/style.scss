@@ -173,10 +173,13 @@ header {
 
 
 		.random-img {
+            width: 24rem;
+            height: 24rem;
 			border-radius: 50%;
 			cursor: pointer;
 			margin-top: 2rem;
 			transition: all 0.3s ease;
+
 			&:hover {
 				transform: scale(120%);
 			}

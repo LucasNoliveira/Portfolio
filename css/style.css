@@ -164,6 +164,8 @@ header ul li .cv:hover {
   border-radius: 1rem;
 }
 .hero .center-content .random-img {
+  width: 24rem;
+  height: 24rem;
   border-radius: 50%;
   cursor: pointer;
   margin-top: 2rem;
