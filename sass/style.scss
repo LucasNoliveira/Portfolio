@@ -43,34 +43,68 @@ header {
         position: absolute;
 
     }
-    
-    ul {
-        display: flex;
-    background: #fff;
-    padding: 1rem;
-    justify-content: flex-end;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
-    // background: purple;
-    
-    li {
-        padding: 1rem;
-        // background: yellow;
-        
+
+    .menu-1 {
+        background: #4A148C;
+
         a {
-            color: black;
-        }
-        
-        .cv {
-            background: tomato;
-            color: white;
-            padding: 1rem;
-            
-            &:hover{
-                background: rgb(248, 71, 40);
+            &::before {
+                background: #E91E63;
+                transform-origin: 100% 50%;
+            }
+
+            &:hover::before {
+                transform-origin: 0 50%;
             }
         }
     }
-}
+
+    .menu {
+        a::before {
+            content: "";
+            width: 100%;
+            height: 4px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: #d74f4f;
+            transition: 0.5s transform ease;
+            transform: scale3d(0, 1, 1);
+            transform-origin: 0 50%;
+
+            &:hover::before {
+                transform: scale3d(1, 1, 1);
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        background: #fff;
+        padding: 1rem;
+        justify-content: flex-end;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+        // background: purple;
+
+        li {
+            padding: 1rem;
+            // background: yellow;
+
+            a {
+                color: black;
+            }
+
+            .cv {
+                background: tomato;
+                color: white;
+                padding: 1rem;
+
+                &:hover {
+                    background: rgb(248, 71, 40);
+                }
+            }
+        }
+    }
 }
 
 
@@ -120,7 +154,7 @@ header {
             margin-top: 2rem;
             transition: all .3s ease;
 
-            &:hover{
+            &:hover {
                 transform: scale(120%);
             }
         }
