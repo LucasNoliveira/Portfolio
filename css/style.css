@@ -149,8 +149,11 @@ header ul li .cv:hover {
   gap: 1rem;
 }
 .hero .center-content .hero-text .flex-cv .hero-cv {
-  width: 9rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 12rem;
   background: tomato;
   color: white;
   padding: 1rem;
@@ -168,27 +171,6 @@ header ul li .cv:hover {
 }
 .hero .center-content .random-img:hover {
   transform: scale(120%);
-}
-
-.projetos, .sobre .contato {
-  height: 100vh;
-  width: 100vw;
-}
-
-.projetos {
-  background: red;
-}
-
-.sobre {
-  background: #000;
-  height: 100vh;
-  width: 100vw;
-}
-
-.contato {
-  background: green;
-  width: 100vw;
-  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

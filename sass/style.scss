@@ -152,8 +152,11 @@ header {
                 gap: 1rem;
 
                 .hero-cv{
-                    width: 9rem;
-                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    width: 12rem;
                     background: tomato;
                     color: white;
                     padding: 1rem;
@@ -181,25 +184,21 @@ header {
 	}
 }
 
-.projetos, .sobre .contato{
-    height: 100vh;
-    width: 100vw;
-}
 
-.projetos{
-    background: red;
-}
+// .projetos{
+//     // background: red;
+// }
 
-.sobre{
-    background: #000;
-    height: 100vh;
-    width: 100vw;
-}
+// .sobre{
+//     // background: #000;
+//     height: 100vh;
+//     width: 100vw;
+// }
 
-.contato{
-    background: green;
-    width: 100vw;
-    height: 100vh;
+// .contato{
+//     // background: green;
+//     width: 100vw;
+//     height: 100vh;
 
-}
+// }
 
