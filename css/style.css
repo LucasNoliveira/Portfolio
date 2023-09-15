@@ -38,26 +38,25 @@ header h1 {
   height: 100%;
   position: absolute;
 }
-
-ul {
+header ul {
   display: flex;
   background: #fff;
   padding: 1rem;
   justify-content: flex-end;
   border-bottom: 1px solid rgba(0, 0, 0, 0.103);
 }
-ul li {
+header ul li {
   padding: 1rem;
 }
-ul li a {
+header ul li a {
   color: black;
 }
-ul li .cv {
+header ul li .cv {
   background: tomato;
   color: white;
   padding: 1rem;
 }
-ul li .cv:hover {
+header ul li .cv:hover {
   background: rgb(248, 71, 40);
 }
 
@@ -95,6 +94,7 @@ ul li .cv:hover {
   border-radius: 50%;
   cursor: pointer;
   margin-top: 2rem;
+  transition: all 0.3s ease;
 }
 .hero .center-content .random-img:hover {
   transform: scale(120%);

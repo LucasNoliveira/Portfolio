@@ -43,35 +43,37 @@ header {
         position: absolute;
 
     }
-}
-
-ul {
-    display: flex;
+    
+    ul {
+        display: flex;
     background: #fff;
     padding: 1rem;
     justify-content: flex-end;
     border-bottom: 1px solid rgba(0, 0, 0, 0.103);
     // background: purple;
-
+    
     li {
         padding: 1rem;
         // background: yellow;
-
+        
         a {
             color: black;
         }
-
+        
         .cv {
             background: tomato;
             color: white;
             padding: 1rem;
-
+            
             &:hover{
                 background: rgb(248, 71, 40);
             }
         }
     }
 }
+}
+
+
 
 .hero {
     // background: burlywood;
@@ -116,6 +118,7 @@ ul {
             border-radius: 50%;
             cursor: pointer;
             margin-top: 2rem;
+            transition: all .3s ease;
 
             &:hover{
                 transform: scale(120%);
