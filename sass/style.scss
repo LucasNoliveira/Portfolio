@@ -37,7 +37,7 @@ header {
         align-items: center;
         padding: 1rem;
         font-size: 1.5rem;
-        background: green;
+        // background: green;
         height: 100%;
         position: absolute;
 
@@ -50,11 +50,11 @@ ul {
     padding: 1rem;
     justify-content: flex-end;
     border-bottom: 1px solid rgba(0, 0, 0, 0.103);
-    background: purple;
+    // background: purple;
 
     li {
         padding: 1rem;
-        background: yellow;
+        // background: yellow;
 
         a {
             color: black;
@@ -73,7 +73,7 @@ ul {
 }
 
 .hero {
-    background: burlywood;
+    // background: burlywood;
     width: 100vw;
     height: 100vh;
 
@@ -81,7 +81,7 @@ ul {
         content: "";
         display: block;
         height: 5rem;
-        background: rgb(141, 141, 230);
+        // background: rgb(141, 141, 230);
     }
 
     .center-content {
@@ -91,10 +91,10 @@ ul {
         width: 80%;
         height: 80%;
         margin: 1rem auto;
-        background: #000;
+        // background: #000;
 
         .hero-text {
-            background: darkturquoise;
+            // background: darkturquoise;
             max-width: 40%;
 
             p {
