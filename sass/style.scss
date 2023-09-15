@@ -1,168 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&family=Open+Sans:wght@400;500&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&family=Open+Sans:wght@400;500&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+@import url(_mixins.scss);
 
 :root {
-    --bold-font: 'Montserrat', sans-serif;
-    --main-font: 'Poppins', sans-serif;
-    --second-font: 'Open Sans', sans-serif;
+	--bold-font: "Montserrat", sans-serif;
+	--main-font: "Poppins", sans-serif;
+	--second-font: "Open Sans", sans-serif;
+    --main-color: tomato;
+    --main-color-darker: rgb(254, 70, 38);
 }
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
-    scroll-behavior: smooth;
-    font-family: var(--main-font);
+	scroll-behavior: smooth;
+	font-family: var(--main-font);
 }
-
 html {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
-
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: var(--bold-font);
+	font-family: var(--bold-font);
 }
-
+a {
+	text-decoration: none;
+}
 header {
-    position: fixed;
-    width: 100vw;
-    display: none;
+	position: fixed;
+	width: 100vw;
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1.5rem;
+		font-size: 1.5rem;
+		color: tomato;
+		height: 100%;
+		position: absolute;
+	}
+	ul {
+		display: flex;
+		background: #ffffff;
+		align-items: center;
+		justify-content: flex-end;
+        margin-right: 1.5rem;
+		li {
+			padding: 1rem;
+			list-style: none;
 
-
-    h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        font-size: 1.5rem;
-        // background: green;
-        color: tomato;
-        height: 100%;
-        position: absolute;
-
-    }
-
-    .menu-1 {
-        background: #4A148C;
-
-        a {
-            &::before {
-                background: #E91E63;
-                transform-origin: 100% 50%;
-            }
-
-            &:hover::before {
-                transform-origin: 0 50%;
-            }
-        }
-    }
-
-    .menu {
-        a::before {
-            content: "";
-            width: 100%;
-            height: 4px;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            background: #d74f4f;
-            transition: 0.5s transform ease;
-            transform: scale3d(0, 1, 1);
-            transform-origin: 0 50%;
-
-            &:hover::before {
-                transform: scale3d(1, 1, 1);
-            }
-        }
-    }
-
-    ul {
-        display: flex;
-        background: #fff;
-        padding: 1rem;
-        justify-content: flex-end;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.103);
-        // background: purple;
-
-        li {
-            padding: 1rem;
-            // background: yellow;
-
-            a {
-                color: black;
-            }
-
-            .cv {
+            @mixin cv-style{
                 background: tomato;
                 color: white;
                 padding: 1rem;
+            }
+			.cv {
+                @include cv-style();
 
-                &:hover {
-                    background: rgb(248, 71, 40);
+				&:hover {
+					background: var(--main-color-darker);
+					color: white;
+				}
+			}
+		}
+	}
+}
+.menu {
+	border-bottom: 1px solid rgba(128, 128, 128, 0.172);
+	background: #000;
+	a {
+		font-size: 1rem;
+		text-decoration: none;
+		color: black;
+		display: block;
+		position: relative;
+		padding: 8px 0;
+	}
+	.normal {
+		&:hover {
+			color: tomato;
+			&::before {
+				transform: scale3d(1, 1, 1);
+			}
+		}
+		&::before {
+			content: "";
+			width: 100%;
+			height: 4px;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			background: #fff;
+			transition: 0.5s transform ease;
+			transform: scale3d(0, 1, 1);
+			transform-origin: 0 50%;
+		}
+	}
+}
+.menu-1 {
+	background: #ffffff;
+	.normal {
+		&::before {
+			background: tomato;
+			transform-origin: 100% 50%;
+		}
+		&:hover {
+			&::before {
+				transform-origin: 0 50%;
+			}
+		}
+	}
+}
+.hero {
+	width: 100vw;
+	height: 100vh;
+	&::before {
+		content: "";
+		display: block;
+		height: 5rem;
+	}
+	.center-content {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 80%;
+		height: 80%;
+		margin: 1rem auto;
+		.hero-text {
+			max-width: 40%;
+			p {
+				line-height: 2rem;
+				word-spacing: 0.6rem;
+                text-align: justify;
+
+			}
+			h1 {
+				font-size: 3.5rem;
+			}
+			h2 {
+				font-size: 2rem;
+			}
+
+            .flex-cv{
+                display: flex;
+                gap: 1rem;
+
+                .hero-cv{
+                    width: 9rem;
+                    text-align: center;
+                    background: tomato;
+                    color: white;
+                    padding: 1rem;
+                    transition: 300ms ease;
+
+                    &:hover{
+                        background: var(--main-color-darker);
+                        border-radius: 1rem;
+                    }
                 }
             }
-        }
-    }
+
+		}
+
+
+		.random-img {
+			border-radius: 50%;
+			cursor: pointer;
+			margin-top: 2rem;
+			transition: all 0.3s ease;
+			&:hover {
+				transform: scale(120%);
+			}
+		}
+	}
 }
 
+.projetos, .sobre .contato{
+    height: 100vh;
+    width: 100vw;
+}
 
+.projetos{
+    background: red;
+}
 
-.hero {
-    // background: burlywood;
+.sobre{
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contato{
+    background: green;
     width: 100vw;
     height: 100vh;
 
-    &::before {
-        content: "";
-        display: block;
-        height: 5rem;
-        // background: rgb(141, 141, 230);
-    }
-
-    .center-content {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        height: 80%;
-        margin: 1rem auto;
-        // background: #000;
-
-        .hero-text {
-            // background: darkturquoise;
-            max-width: 40%;
-
-            p {
-                line-height: 2rem;
-                word-spacing: .6rem;
-            }
-
-            h1 {
-                font-size: 3.5rem;
-            }
-
-            h2 {
-                font-size: 2rem;
-            }
-        }
-
-        .random-img {
-            border-radius: 50%;
-            cursor: pointer;
-            margin-top: 2rem;
-            transition: all .3s ease;
-
-            &:hover {
-                transform: scale(120%);
-            }
-        }
-    }
 }
 
-@media screen and (min-width: 1000px) {
-    header {
-        display: initial;
-    }
-}
