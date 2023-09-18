@@ -124,7 +124,8 @@ header ul li .cv:hover {
   margin: 1rem auto;
 }
 .hero .center-content .hero-text {
-  max-width: 40%;
+  width: fit-content;
+  padding: 2rem;
 }
 .hero .center-content .hero-text span {
   transition: 1s ease;
@@ -138,12 +139,13 @@ header ul li .cv:hover {
   line-height: 2rem;
   word-spacing: 0.6rem;
   text-align: justify;
+  font-size: clamp(15px, 1.2vw, 25px);
 }
 .hero .center-content .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: clamp(40px, 4vw, 60px);
 }
 .hero .center-content .hero-text h2 {
-  font-size: 2rem;
+  font-size: clamp(25px, 2.5vw, 40px);
 }
 .hero .center-content .hero-text .flex-cv {
   display: flex;
@@ -195,6 +197,17 @@ header ul li .cv:hover {
 @media screen and (max-width: 992px) {
   nav {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .random-img {
+    display: none;
+  }
+  .hero-text {
+    padding: 2rem;
+  }
+  .hero::before {
+    height: 5%;
   }
 }
 
