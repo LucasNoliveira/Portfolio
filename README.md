@@ -1,5 +1,6 @@
 # Landing Page - Portfolio
-![Captura de tela 2023-08-02 144221](https://github.com/LucasNoliveira/Portfolio/assets/83134855/b256071c-6ac1-4034-b508-f0661c6f82d4)
+![スクリーンショット 2023-09-18 183656](https://github.com/LucasNoliveira/Portfolio/assets/83134855/8cdd64bb-4856-42f2-ab76-dfec7a2e2006)
+
 
 
 # Visão Geral
