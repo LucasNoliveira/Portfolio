@@ -9,11 +9,7 @@
     --main-color: tomato;
     --main-color-darker: rgb(254, 70, 38);
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 body {
 	scroll-behavior: smooth;
 	font-family: var(--main-font);
@@ -225,3 +221,7 @@ header {
 //     height: 100vh;
 
 // }
+
+@media screen and (max-width: 768px) {
+	
+}
