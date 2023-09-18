@@ -158,21 +158,37 @@ header ul li .cv:hover {
   color: white;
   padding: 1rem;
   transition: 300ms ease;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  margin-top: 1rem;
 }
 .hero .center-content .hero-text .flex-cv .hero-cv:hover {
   background: var(--main-color-darker);
   border-radius: 1rem;
 }
+.hero .center-content .bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .hero .center-content .random-img {
-  width: 24rem;
-  height: 24rem;
+  width: 28rem;
+  height: 28rem;
   border-radius: 50%;
   cursor: pointer;
   margin-top: 2rem;
   transition: all 0.3s ease;
-}
-.hero .center-content .random-img:hover {
-  transform: scale(120%);
 }
 
 /*# sourceMappingURL=style.css.map */
