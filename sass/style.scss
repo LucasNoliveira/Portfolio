@@ -134,6 +134,17 @@ header {
 		margin: 1rem auto;
 		.hero-text {
 			max-width: 40%;
+
+			span{
+				transition: 1s ease;
+				background: tomato;
+			}
+
+			span:hover{
+				background: linear-gradient(to left, white 50%, tomato 50%) right;
+				background-size: 200% 100%;
+			}
+
 			p {
 				line-height: 2rem;
 				word-spacing: 0.6rem;
@@ -214,4 +225,3 @@ header {
 //     height: 100vh;
 
 // }
-

@@ -133,6 +133,14 @@ header ul li .cv:hover {
 .hero .center-content .hero-text {
   max-width: 40%;
 }
+.hero .center-content .hero-text span {
+  transition: 1s ease;
+  background: tomato;
+}
+.hero .center-content .hero-text span:hover {
+  background: linear-gradient(to left, white 50%, tomato 50%) right;
+  background-size: 200% 100%;
+}
 .hero .center-content .hero-text p {
   line-height: 2rem;
   word-spacing: 0.6rem;
