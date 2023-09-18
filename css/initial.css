@@ -1,39 +1,93 @@
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
 }
 
 body{
     display: flex;
 }
 
-.access{
+nav{
+    position: absolute;
     display: flex;
+    /* background-color: #00000027; */
     width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-.svg-img{
+nav ul, nav li{
+    display: flex;
+    padding: 1rem;
+}
+
+nav a{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* background: #00000027; */
+    padding: 5rem;
+    margin-top: 5rem;
+    /* border-left: 1px solid rgba(0, 0, 0, 0.185); */
+}
+
+.access h1{
+    font-size: 3rem;
+    color: wheat;
+}
+
+.ondas-bg{
+    background-image: url(img/Speedline-100s-1119px.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.svg-container{
     display: none;
 }
 
 .svg-pic{
+    background: #00000028;
     max-width: 100%;
-    width: 30rem;
+    width: 70%;
+    height: 70%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.img-align{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    /* background: yellow; */
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: rgb(223, 220, 220);
 }
 
 .site-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    bottom: 5rem;
-    height: fit-content;
-    padding: 1.5rem 2rem;
-    font-size: 1.2rem;
     background: tomato;
     color: white;
+    height: fit-content;
+    padding: 1.2rem 2rem;
     transition: 300ms ease;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
+    font-size: 1rem;
+    bottom: 5rem;
+    width: 20%;
 }
 
 .site-link:hover{
@@ -53,14 +107,15 @@ body{
 
 @media screen and (min-width: 768px) {
     .access{
-        width: 50vw;
+        width: 50%;
     }
 
-    .svg-img{
+    .svg-container{
         display: flex;
-        justify-content: center;
-        width: 50vw;
+        justify-content: space-between;
+        align-items: center;
+        background: #1415227e;
+        width: 100vw;
         height: 100vh;
-        background: #141522;
     }
 }
