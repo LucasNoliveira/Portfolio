@@ -142,10 +142,12 @@ header ul li .cv:hover {
   font-size: clamp(15px, 1.2vw, 25px);
 }
 .hero .center-content .hero-text h1 {
-  font-size: clamp(40px, 4vw, 60px);
+  font-size: clamp(50px, 4vw, 65px);
+  color: #222222;
 }
 .hero .center-content .hero-text h2 {
   font-size: clamp(25px, 2.5vw, 40px);
+  color: #383838;
 }
 .hero .center-content .hero-text .flex-cv {
   display: flex;
