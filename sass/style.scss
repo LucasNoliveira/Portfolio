@@ -12,6 +12,7 @@ body {
 	scroll-behavior: smooth;
 	font-family: var(--main-font);
 }
+
 html {
 	overflow-x: hidden;
 }
@@ -47,9 +48,14 @@ header {
 		height: 100%;
 		position: absolute;
 	}
+
+	.logo{
+		color: rgb(122, 122, 241);
+	}
+
 	ul {
 		display: flex;
-		background: #ffffff;
+		background: #ffffff00;
 		align-items: center;
 		justify-content: flex-end;
         margin-right: 1.5rem;
@@ -106,7 +112,7 @@ header {
 	}
 }
 .menu-1 {
-	background: #ffffff;
+	background: #ffffff00;
 	.normal {
 		&::before {
 			background: tomato;
@@ -119,10 +125,24 @@ header {
 		}
 	}
 }
+
+.hero-bg-blur{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../css/img/testes/pexels-pixabay-509922.jpg);
+	background-size: cover;
+	filter: blur(.05rem);
+	position: absolute;
+	min-height: 100%;
+}
+
 .hero {
 	width: 100vw;
 	height: 100vh;
 	// background: #c7c7c7;
+	position: relative;
+
+
 	&::before {
 		content: "";
 		display: block;
@@ -135,11 +155,10 @@ header {
 		width: 80%;
 		height: 80%;
 		margin: 1rem auto;
-		// background: yellow;
+		background: rgba(48, 48, 48, 0);
 		gap: 2rem;
 
 		.hero-text {
-
 			width: fit-content;
 			padding: 1rem;
 			// background: tomato;
@@ -151,7 +170,7 @@ header {
 			}
 
 			span:hover{
-				background: linear-gradient(to left, white 50%, tomato 50%) right;
+				background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, tomato 50%) right;
 				background-size: 200% 100%;
 			}
 
@@ -160,7 +179,7 @@ header {
 				word-spacing: 0.2vw;
                 text-align: justify;
 				font-size: clamp(16px, 1vw, 30px);
-				color: #222222;
+				color: #353535;
 			}
 			h1 {
 				font-size: clamp(50px, 4vw, 65px);
@@ -219,6 +238,7 @@ header {
 			cursor: pointer;
 			margin-top: 2rem;
 			transition: all 0.3s ease;
+			background: #1f1f1f1f;
 		}
 	}
 }
@@ -229,11 +249,9 @@ header {
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
-    background: #7d84b2;
+    background: #ffffff;
 	padding: 2rem;
-	background-image: url(../css/img/Polygon\ Luminary.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
+
 
 	h2{
 		color: white;
@@ -251,11 +269,11 @@ header {
 		.project-item{
 			background: rgba(255, 255, 255, 0.726);
 			cursor: pointer;
-			transition: 300ms ease;
+			transition: 800ms ease;
 			
-			&:hover{
-				transform: scale(150%);
-			}
+			// &:hover{
+			// 	transform: scale(150%);
+			// }
 			
 		}
 	}

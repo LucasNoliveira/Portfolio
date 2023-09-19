@@ -48,9 +48,12 @@ header h1 {
   height: 100%;
   position: absolute;
 }
+header .logo {
+  color: rgb(122, 122, 241);
+}
 header ul {
   display: flex;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
   align-items: center;
   justify-content: flex-end;
   margin-right: 1.5rem;
@@ -100,7 +103,7 @@ header ul li .cv:hover {
 }
 
 .menu-1 {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
 }
 .menu-1 .normal::before {
   background: tomato;
@@ -110,9 +113,20 @@ header ul li .cv:hover {
   transform-origin: 0 50%;
 }
 
+.hero-bg-blur {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../css/img/testes/pexels-pixabay-509922.jpg);
+  background-size: cover;
+  filter: blur(0.05rem);
+  position: absolute;
+  min-height: 100%;
+}
+
 .hero {
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 .hero::before {
   content: "";
@@ -126,6 +140,7 @@ header ul li .cv:hover {
   width: 80%;
   height: 80%;
   margin: 1rem auto;
+  background: rgba(48, 48, 48, 0);
   gap: 2rem;
 }
 .hero .center-content .hero-text {
@@ -137,7 +152,7 @@ header ul li .cv:hover {
   background: tomato;
 }
 .hero .center-content .hero-text span:hover {
-  background: linear-gradient(to left, white 50%, tomato 50%) right;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, tomato 50%) right;
   background-size: 200% 100%;
 }
 .hero .center-content .hero-text p {
@@ -145,7 +160,7 @@ header ul li .cv:hover {
   word-spacing: 0.2vw;
   text-align: justify;
   font-size: clamp(16px, 1vw, 30px);
-  color: #222222;
+  color: #353535;
 }
 .hero .center-content .hero-text h1 {
   font-size: clamp(50px, 4vw, 65px);
@@ -202,6 +217,7 @@ header ul li .cv:hover {
   cursor: pointer;
   margin-top: 2rem;
   transition: all 0.3s ease;
+  background: rgba(31, 31, 31, 0.1215686275);
 }
 
 .projetos {
@@ -209,11 +225,8 @@ header ul li .cv:hover {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background: #7d84b2;
+  background: #ffffff;
   padding: 2rem;
-  background-image: url(../css/img/Polygon\ Luminary.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .projetos h2 {
   color: white;
@@ -230,10 +243,7 @@ header ul li .cv:hover {
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
   cursor: pointer;
-  transition: 300ms ease;
-}
-.projetos .project-grid .project-item:hover {
-  transform: scale(150%);
+  transition: 800ms ease;
 }
 
 @media screen and (max-width: 992px) {
