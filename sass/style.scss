@@ -225,10 +225,40 @@ header {
 
 
 .projetos{
+	display: flex;
+	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
     background: #7d84b2;
 	padding: 2rem;
+	background-image: url(../css/img/Polygon\ Luminary.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	h2{
+		color: white;
+	}
+
+	.project-grid{
+		display: grid;
+		background: #0000001f;
+		width: 98%;
+		height: 90vh;
+		grid-template-columns: repeat(3, .5fr);
+		gap: 1rem;
+		padding: 5rem;
+		
+		.project-item{
+			background: rgba(255, 255, 255, 0.726);
+			cursor: pointer;
+			transition: 300ms ease;
+			
+			&:hover{
+				transform: scale(150%);
+			}
+			
+		}
+	}
 }
 
 // .sobre{

@@ -205,10 +205,35 @@ header ul li .cv:hover {
 }
 
 .projetos {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   background: #7d84b2;
   padding: 2rem;
+  background-image: url(../css/img/Polygon\ Luminary.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projetos h2 {
+  color: white;
+}
+.projetos .project-grid {
+  display: grid;
+  background: rgba(0, 0, 0, 0.1215686275);
+  width: 98%;
+  height: 90vh;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 1rem;
+  padding: 5rem;
+}
+.projetos .project-grid .project-item {
+  background: rgba(255, 255, 255, 0.726);
+  cursor: pointer;
+  transition: 300ms ease;
+}
+.projetos .project-grid .project-item:hover {
+  transform: scale(150%);
 }
 
 @media screen and (max-width: 992px) {
