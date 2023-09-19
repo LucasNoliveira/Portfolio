@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(_mixins.scss);
 :root {
   --bold-font: "Montserrat", sans-serif;
@@ -116,7 +117,7 @@ header ul li .cv:hover {
 .hero-bg-blur {
   width: 100vw;
   height: 100vh;
-  background-image: url(../css/img/testes/pexels-pixabay-509922.jpg);
+  background-image: url(../css/img/testes/pexels-александар-цветановић-1422286.jpg);
   background-size: cover;
   filter: blur(0.05rem);
   position: absolute;
