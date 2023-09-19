@@ -117,8 +117,7 @@ header ul li .cv:hover {
 .hero-bg-blur {
   width: 100vw;
   height: 100vh;
-  background-image: url(../css/img/testes/pexels-александар-цветановић-1422286.jpg);
-  background-size: cover;
+d-size: cover;
   filter: blur(0.05rem);
   position: absolute;
   min-height: 100%;
