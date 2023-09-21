@@ -1,12 +1,14 @@
 const whiteBody = document.body;
-const lightText = document.body.querySelector('h1, p');
+const whiteContainer = document.body.querySelector('.center-content');
 const buttonText = document.body.querySelector('.theme-button');
+const whiteText = whiteContainer.querySelector('p')
+const lightNav = document.body.querySelector('header')
 
 let isLight = true;
 
 function lightMode (){
     whiteBody.classList.toggle('light-mode')
-    lightText.classList.toggle('light-mode')
+    whiteText.classList.toggle ('light-mode')
     buttonText.innerHTML.toggle = 'Dark'
 
     isLight = !isLight;

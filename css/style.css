@@ -168,15 +168,12 @@ header ul li .cv:hover {
   word-spacing: 0.2vw;
   text-align: justify;
   font-size: clamp(16px, 1vw, 30px);
-  color: #353535;
 }
 .hero .center-content .hero-text h1 {
   font-size: clamp(50px, 4vw, 65px);
-  color: #222222;
 }
 .hero .center-content .hero-text h2 {
   font-size: clamp(28px, 2vw, 50px);
-  color: #383838;
 }
 .hero .center-content .hero-text .flex-cv {
   display: flex;

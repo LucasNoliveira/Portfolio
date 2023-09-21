@@ -17,13 +17,16 @@ body.light-mode header a{
 
 body.light-mode .center-content{
     background: var(--dark-color);
-    color: white;
 }
 
-body.light-mode h1.light-mode{
-    color: white;
+body.light-mode .center-content h1{
+    color: rgb(242, 218, 247);
 }
-body.light-mode .center-content p.light-mode{
+body.light-mode .center-content h2{
+    color: rgb(226, 83, 255);
+}
+
+body.light-mode p.light-mode{
     color: white;
 }
 
