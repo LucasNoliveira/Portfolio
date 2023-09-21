@@ -22,10 +22,10 @@ Possui a função de servir como portifólio pessoal, com informações técnica
 </div>
 
 # Como Utilizar
-1. Faça um clone deste repositório:
-` git clone https://github.com/LucasNoliveira/Portfolio.git `
+1. Acesse o site no link a seguir https://lucasnoliveira.github.io/Portfolio/
 ou
-2. Acesse o site no link a seguir https://lucasnoliveira.github.io/Portfolio/
+2. Faça um clone deste repositório:
+` git clone https://github.com/LucasNoliveira/Portfolio.git `
 
 # Licença
 Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para utilizar o código, modificar e compartilhar conforme suas necessidades.
