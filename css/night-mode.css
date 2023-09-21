@@ -1,0 +1,29 @@
+:root{
+    --dark-color: #170f1d
+}
+
+body.light-mode{
+    background: var(--dark-color);
+}
+
+body.light-mode header{
+    background: var(--dark-color);
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.243);
+}
+
+body.light-mode header a{
+    color: white;
+}
+
+body.light-mode .center-content{
+    background: var(--dark-color);
+    color: white;
+}
+
+body.light-mode h1.light-mode{
+    color: white;
+}
+body.light-mode .center-content p.light-mode{
+    color: white;
+}
+

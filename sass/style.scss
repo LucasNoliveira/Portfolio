@@ -33,6 +33,24 @@ a {
 	text-decoration: none;
 }
 
+.theme-button{
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+	cursor: pointer;
+	background: tomato;
+	color: white;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	border: none;
+	z-index: 2;
+}
+
+.theme-button:hover{
+	background: rgb(194, 29, 0);
+}
+
 header {
 	position: fixed;
 	width: 100vw;
@@ -124,16 +142,6 @@ header {
 			}
 		}
 	}
-}
-
-.hero-bg-blur{
-	width: 100vw;
-	height: 100vh;
-	background-image: url(../css/img/testes/pexels-александар-цветановић-1422286.jpg);
-	background-size: cover;
-	filter: blur(.05rem);
-	position: absolute;
-	min-height: 100%;
 }
 
 .hero {
