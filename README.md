@@ -12,8 +12,6 @@ Foi feito na intenção de aprender sobre HTML, CSS e suas propriedades, como Bo
 
 Possui a função de servir como portifólio pessoal, com informações técnicas e pessoais sobre mim, utilizando de design responsivo e moderno, animações e interatividade.
 
-Por enquanto, o site está apenas com Front-End. Tecnologias Back-End serão implementadas futuramente conforme eu evoluir meus estudos
-
 # Tecnologias Utilizadas (até agora)
 <div style="display: flex; flex-wrap: wrap;">
   <img height="30em" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
