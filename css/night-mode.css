@@ -44,17 +44,24 @@ body.light-mode .hero .center-content .random-img{
     background-color: rgba(226, 83, 255, 0);
 }
 
+.toggle-align{
+    position: absolute;
+    width: fit-content;
+    top: 1.5rem;
+    right: 1rem;
+}
+
 .toggle {
-    margin: 0 auto;
     /*change size of toggle with font-size*/
     font-size: 15%;
-    margin-top: 10em;
     position: relative;
     height: 16em;
     width: 30em;
     border-radius: 16em;
     transition: all 500ms ease-in-out;
     background: var(--bgColor--night);
+    cursor: pointer;
+    z-index: 4;
 }
 
 .day {
