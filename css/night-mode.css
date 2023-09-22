@@ -50,8 +50,6 @@ body.light-mode .hero .center-content .random-img{
     --lightbg: #fff;
     --lightt: #D43370;
 
-    --toggleHeight: 16em;
-    --toggleWidth: 30em;
     --toggleBtnRadius: 10em;
 
     --bgColor--night: #423966;
@@ -69,12 +67,12 @@ body {
 .toggle {
     margin: 0 auto;
     /*change size of toggle with font-size*/
-    font-size: 30%;
+    font-size: 15%;
     margin-top: 10em;
     position: relative;
-    height: var(--toggleHeight);
-    width: var(--toggleWidth);
-    border-radius: var(--toggleHeight);
+    height: 16em;
+    width: 30em;
+    border-radius: 16em;
     transition: all 500ms ease-in-out;
     background: var(--bgColor--night);
 }
