@@ -163,7 +163,7 @@ header {
 		width: 80%;
 		height: 80%;
 		margin: 1rem auto;
-		background: rgba(48, 48, 48, 0.674);
+		// background: rgba(48, 48, 48, 0.674);
 		gap: 2rem;
 
 		.hero-text {
@@ -186,7 +186,7 @@ header {
 				word-spacing: 0.2vw;
                 text-align: justify;
 				font-size: clamp(16px, 1vw, 30px);
-				background: tomato;
+				// background: tomato;
 
 			}
 			h1 {
@@ -320,9 +320,10 @@ header {
 
 	.hero-text{
 		margin: 0 auto;
-		background: yellow;
+		// background: yellow;
 		width: 100vw;
 		height: 100vh;
+		padding: 0 1.5rem;
 		padding-top: 10rem;
 	}
 
