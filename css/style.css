@@ -36,7 +36,7 @@ a {
 .theme-button {
   position: absolute;
   bottom: 2rem;
-  left: 2rem;
+  left: 1rem;
   cursor: pointer;
   background: tomato;
   color: white;
