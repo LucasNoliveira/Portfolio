@@ -4,9 +4,13 @@
     --toggleBtn-bgColor--night: var(--bgColor--night);
     --mooncolor: #D9FBFF;
     --bgColor--day: #9ee3fb;
-
+    
     --toggleBtn-bgColor--day: var(--bgColor--day);
     --dark-color: #241c2b;
+}
+
+body {
+    transition: all .2s ease-in-out;
 }
 
 body.light-mode{
@@ -40,24 +44,6 @@ body.light-mode .hero .center-content .random-img{
     background-color: rgba(226, 83, 255, 0);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-    transition: all .2s ease-in-out;
-}
-
 .toggle {
     margin: 0 auto;
     /*change size of toggle with font-size*/
@@ -84,8 +70,8 @@ body {
     top: 3em;
     left: 3em;
     transform: rotate(-75deg);
-    width: var(--toggleBtnRadius);
-    height: var(--toggleBtnRadius);
+    width: 10em;
+    height: 10em;
     background: var(--bgColor--night);
     box-shadow:
         3em 2.5em 0 0em var(--mooncolor) inset,
