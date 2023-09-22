@@ -1,4 +1,11 @@
-:root{
+:root {
+    --bgColor--night: #423966;
+    --toggleBtnRadius: 10em;
+    --toggleBtn-bgColor--night: var(--bgColor--night);
+    --mooncolor: #D9FBFF;
+    --bgColor--day: #9ee3fb;
+
+    --toggleBtn-bgColor--day: var(--bgColor--day);
     --dark-color: #241c2b;
 }
 
@@ -46,15 +53,6 @@ body.light-mode .hero .center-content .random-img{
 
 
 
-:root {
-    --toggleBtnRadius: 10em;
-
-    --bgColor--night: #423966;
-    --toggleBtn-bgColor--night: var(--bgColor--night);
-    --mooncolor: #D9FBFF;
-    --bgColor--day: #9ee3fb;
-    --toggleBtn-bgColor--day: var(--bgColor--day);
-}
 
 body {
     transition: all .2s ease-in-out;
