@@ -153,7 +153,7 @@ header ul li .cv:hover {
 }
 .hero .center-content .hero-text {
   width: fit-content;
-  padding: 1rem;
+  padding: 4rem;
 }
 .hero .center-content .hero-text span {
   transition: 1s ease;
@@ -268,7 +268,8 @@ header ul li .cv:hover {
   }
   .hero-text {
     margin: 0 auto;
-    padding: 2rem;
+    padding: 100rem;
+    background: yellow;
   }
   .hero::before {
     height: 5%;
