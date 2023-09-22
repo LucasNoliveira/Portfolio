@@ -259,7 +259,7 @@ header ul li .cv:hover {
     display: none;
   }
   header h1 {
-    padding: 2rem;
+    padding: 2rem 1.5rem;
   }
 }
 @media screen and (max-width: 768px) {
