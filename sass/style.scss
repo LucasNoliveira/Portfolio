@@ -319,15 +319,19 @@ header {
 	}
 
 	.hero-text{
-		margin: 0 auto;
+		// margin: 0 auto;
 		// background: yellow;
 		width: 100vw;
 		height: 100vh;
-		padding: 0 1.5rem;
 		padding-top: 10rem;
 	}
 
 	.hero::before{
 		height: 5%;
+	}
+
+	.hero-text h1, .hero-text h2, .hero-text p{
+		margin: 0 auto;
+		max-width: 90%;
 	}
 }
