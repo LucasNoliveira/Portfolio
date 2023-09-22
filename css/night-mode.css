@@ -47,9 +47,6 @@ body.light-mode .hero .center-content .random-img{
 
 
 :root {
-    --lightbg: #fff;
-    --lightt: #D43370;
-
     --toggleBtnRadius: 10em;
 
     --bgColor--night: #423966;
@@ -61,7 +58,6 @@ body.light-mode .hero .center-content .random-img{
 
 body {
     transition: all .2s ease-in-out;
-    text-align: center;
 }
 
 .toggle {
