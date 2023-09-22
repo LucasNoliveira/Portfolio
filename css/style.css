@@ -148,12 +148,11 @@ header ul li .cv:hover {
   width: 80%;
   height: 80%;
   margin: 1rem auto;
-  background: rgba(48, 48, 48, 0);
+  background: rgba(48, 48, 48, 0.674);
   gap: 2rem;
 }
 .hero .center-content .hero-text {
   width: fit-content;
-  padding: 4rem;
 }
 .hero .center-content .hero-text span {
   transition: 1s ease;
@@ -168,6 +167,7 @@ header ul li .cv:hover {
   word-spacing: 0.2vw;
   text-align: justify;
   font-size: clamp(16px, 1vw, 30px);
+  background: tomato;
 }
 .hero .center-content .hero-text h1 {
   font-size: clamp(50px, 4vw, 65px);
@@ -268,8 +268,10 @@ header ul li .cv:hover {
   }
   .hero-text {
     margin: 0 auto;
-    padding: 100rem;
     background: yellow;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10rem;
   }
   .hero::before {
     height: 5%;
