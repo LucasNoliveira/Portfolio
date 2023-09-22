@@ -222,7 +222,7 @@ header ul li .cv:hover {
   cursor: pointer;
   margin-top: 2rem;
   transition: all 0.3s ease;
-  background: #bb4efb;
+  background: rgb(252, 246, 255);
 }
 
 .projetos {
