@@ -30,6 +30,6 @@ body.light-mode p.light-mode{
     color: white;
 }
 body.light-mode .hero .center-content .random-img{
-    background-color: rgba(226, 83, 255, 0.282);
+    background-color: rgba(226, 83, 255, 0);
 }
 
