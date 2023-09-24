@@ -58,6 +58,7 @@ header {
   z-index: 3;
   display: flex;
   align-items: center;
+  background: white;
 }
 header h1 {
   display: flex;

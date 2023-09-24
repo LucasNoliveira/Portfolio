@@ -14,7 +14,7 @@ function lightMode() {
 
     buttonText.textContent = isLight ? 'Dark' : 'Light';
 }
-whiteBody.addEventListener('click', lightMode)
+buttonText.addEventListener('click', lightMode)
 
 $('.toggle').click(function () {
     $(".moon").toggleClass('sun');
