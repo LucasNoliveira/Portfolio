@@ -260,11 +260,11 @@ header {
 
 
 .projetos{
-	display: flex;
+	display: none;
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
-    background: #ffffff;
+    background: #4fc7ff;
 	padding: 2rem;
 
 
@@ -274,10 +274,10 @@ header {
 
 	.project-grid{
 		display: grid;
-		background: #0000001f;
+		background: #ff9191;
 		width: 98%;
 		height: 90vh;
-		grid-template-columns: repeat(3, .5fr);
+		grid-template-columns: repeat(3, 1fr);
 		gap: 1rem;
 		padding: 5rem;
 		
@@ -342,7 +342,7 @@ header {
 
 	.hero-text{
 		// margin: 0 auto;
-		// background: yellow;
+		background: yellow;
 		width: 100vw;
 		height: 100vh;
 		padding-top: 10rem;

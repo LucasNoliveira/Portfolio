@@ -230,11 +230,11 @@ header ul li .cv:hover {
 }
 
 .projetos {
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background: #ffffff;
+  background: #4fc7ff;
   padding: 2rem;
 }
 .projetos h2 {
@@ -242,10 +242,10 @@ header ul li .cv:hover {
 }
 .projetos .project-grid {
   display: grid;
-  background: rgba(0, 0, 0, 0.1215686275);
+  background: #ff9191;
   width: 98%;
   height: 90vh;
-  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 5rem;
 }
@@ -277,6 +277,7 @@ header ul li .cv:hover {
     display: none;
   }
   .hero-text {
+    background: yellow;
     width: 100vw;
     height: 100vh;
     padding-top: 10rem;
