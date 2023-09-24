@@ -56,6 +56,8 @@ header {
 	width: 100vw;
 	top: 0;
 	z-index: 3;
+	display: flex;
+	align-items: center;
 
 	h1 {
 		display: flex;
@@ -74,7 +76,8 @@ header {
 
 	ul {
 		display: flex;
-		background: #ffffff00;
+		// background: #aa1616a9;
+		width: 50vw;
 		align-items: center;
 		justify-content: flex-end;
         margin-right: 15rem;
@@ -101,6 +104,9 @@ header {
 .menu {
 	// border-bottom: 1px solid rgba(128, 128, 128, 0.172);
 	background: #000;
+	margin-left: 50%;
+	transform: translate(-40%);
+
 	a {
 		font-size: 1rem;
 		text-decoration: none;

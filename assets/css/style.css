@@ -56,8 +56,6 @@ header {
   width: 100vw;
   top: 0;
   z-index: 3;
-  display: flex;
-  align-items: center;
 }
 header h1 {
   display: flex;
@@ -74,7 +72,7 @@ header .logo {
 }
 header ul {
   display: flex;
-  width: 50vw;
+  background: rgba(255, 255, 255, 0);
   align-items: center;
   justify-content: flex-end;
   margin-right: 15rem;
@@ -95,8 +93,6 @@ header ul li .cv:hover {
 
 .menu {
   background: #000;
-  margin-left: 50%;
-  transform: translate(-40%);
 }
 .menu a {
   font-size: 1rem;
