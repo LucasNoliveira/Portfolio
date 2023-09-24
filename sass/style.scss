@@ -307,7 +307,15 @@ header {
 
 // }
 
+@media screen and (min-width: 1000px) {
+
+}
+
 @media screen and (max-width: 992px) {
+	header .logo{
+		padding-top: 4rem ;
+	}
+
 	nav{
 		display: none;
 	}
@@ -323,6 +331,11 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+	header .logo{
+		padding-top: 4.5rem;
+	}
+
+
 	.random-img{
 		display: none;
 	}
@@ -342,5 +355,10 @@ header {
 	.hero-text h1, .hero-text h2, .hero-text p{
 		margin: 0 auto;
 		max-width: 90%;
+	}
+
+	.hero .flex-cv{
+		max-width: 90%;
+		margin: 0 auto;
 	}
 }
