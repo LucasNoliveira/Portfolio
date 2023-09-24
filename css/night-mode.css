@@ -9,10 +9,6 @@
     --dark-color: #241c2b;
 }
 
-body {
-    transition: all .2s ease-in-out;
-}
-
 body.light-mode{
     background: var(--dark-color);
 }
