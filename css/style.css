@@ -269,6 +269,11 @@ header ul li .cv:hover {
   header h1 {
     padding: 2rem 1rem;
   }
+  .hero .center-content .hero-text {
+    width: 100vw;
+    position: absolute;
+    inset: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   header .logo {
@@ -278,7 +283,6 @@ header ul li .cv:hover {
     display: none;
   }
   .hero-text {
-    background: yellow;
     width: 100vw;
     height: 100vh;
     padding-top: 10rem;

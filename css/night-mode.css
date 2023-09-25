@@ -6,7 +6,7 @@
     --bgColor--day: #9ee3fb;
     
     --toggleBtn-bgColor--day: var(--bgColor--day);
-    --dark-color: #241c2b;
+    --dark-color: #26293d;
 }
 
 body.light-mode{
