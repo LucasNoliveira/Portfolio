@@ -139,7 +139,8 @@ header ul li .cv:hover {
 
 .hero {
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
+  background: rgba(199, 199, 199, 0);
   position: relative;
 }
 .hero::before {
@@ -152,7 +153,7 @@ header ul li .cv:hover {
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  height: 70%;
+  height: 60%;
   margin: 1rem auto;
   gap: 2rem;
 }
@@ -230,11 +231,11 @@ header ul li .cv:hover {
 }
 
 .projetos {
-  display: none;
+  display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
-  background: #4fc7ff;
+  height: 85vh;
+  background: #001b27;
   padding: 2rem;
 }
 .projetos h2 {
@@ -242,18 +243,21 @@ header ul li .cv:hover {
 }
 .projetos .project-grid {
   display: grid;
-  margin: -5% auto;
-  background: rgba(17, 63, 216, 0.8980392157);
+  margin: -8% auto;
+  background: rgba(170, 188, 255, 0.8980392157);
   width: 70vw;
-  height: 90vh;
+  height: 50vh;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 2rem;
+  padding: 1rem;
+  z-index: 5;
+  border-radius: 0.8rem;
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
   cursor: pointer;
   transition: 800ms ease;
+  padding: 1.4rem;
 }
 
 @media screen and (max-width: 992px) {
