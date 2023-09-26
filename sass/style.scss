@@ -73,14 +73,14 @@ header {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				position: relative;
-				border: .2rem solid tomato;
+				border: .2rem solid rgb(205, 205, 205);
 				border-radius: 3rem;
 				padding: .5rem .9rem;
 
 				&:hover{
-					background: tomato;
+					background: rgb(255, 99, 71);
 					color: white;
+					border: .2rem solid rgba(0, 0, 0, 0);
 				}
 
 				.pdf{
