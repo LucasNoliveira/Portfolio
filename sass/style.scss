@@ -69,17 +69,23 @@ header {
 			padding: 1rem;
 			list-style: none;
 
-            @mixin cv-style{
-                background: tomato;
-                color: white;
-                padding: .9rem;
-            }
 			.cv {
-                @include cv-style();
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+				border: .2rem solid tomato;
+				border-radius: 3rem;
+				padding: .5rem .9rem;
 
-				&:hover {
-					background: var(--main-color-darker);
+				&:hover{
+					background: tomato;
 					color: white;
+				}
+
+				.pdf{
+					width: 1.6rem;
+					padding-right: 0.3rem;
 				}
 			}
 		}
@@ -249,33 +255,39 @@ header {
 	height: 85vh;
     background: #001b27;
 	padding: 2rem;
-
-
+	align-items: center;
+	justify-content: center;
+	border-radius: .8rem;
+	
+	
 	h2{
 		color: white;
 	}
 
 	.project-grid{
 		display: grid;
-		margin: -8% auto;
-		background: #aabcffe5;
 		width: 70vw;
 		height: 50vh;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 1rem;
-		padding: 1rem;
+		padding: .5rem;
 		z-index: 5;
-		border-radius: .8rem;
 		
 		.project-item{
 			background: rgba(255, 255, 255, 0.726);
 			cursor: pointer;
 			transition: 800ms ease;
 			padding: 1.4rem;
+			border-radius: .8rem;
+
+			h3{
+				font-size: 1.5rem;
+				padding-bottom: 1.2rem;
+			}
 			
 			// &:hover{
-			// 	transform: scale(150%);
-			// }
+				// 	transform: scale(150%);
+				// }
 			
 		}
 	}

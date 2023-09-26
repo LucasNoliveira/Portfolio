@@ -67,13 +67,21 @@ header ul li {
   list-style: none;
 }
 header ul li .cv {
-  background: tomato;
-  color: white;
-  padding: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 0.2rem solid tomato;
+  border-radius: 3rem;
+  padding: 0.5rem 0.9rem;
 }
 header ul li .cv:hover {
-  background: var(--main-color-darker);
+  background: tomato;
   color: white;
+}
+header ul li .cv .pdf {
+  width: 1.6rem;
+  padding-right: 0.3rem;
 }
 
 .menu {
@@ -220,27 +228,32 @@ header ul li .cv:hover {
   height: 85vh;
   background: #001b27;
   padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8rem;
 }
 .projetos h2 {
   color: white;
 }
 .projetos .project-grid {
   display: grid;
-  margin: -8% auto;
-  background: rgba(170, 188, 255, 0.8980392157);
   width: 70vw;
   height: 50vh;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   z-index: 5;
-  border-radius: 0.8rem;
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
   cursor: pointer;
   transition: 800ms ease;
   padding: 1.4rem;
+  border-radius: 0.8rem;
+}
+.projetos .project-grid .project-item h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
 }
 
 @media screen and (max-width: 992px) {
