@@ -295,6 +295,10 @@ header ul li .cv .pdf {
   padding-bottom: 1rem;
   font-size: 2.5rem;
 }
+.sobre .about-content .about-text h2 img {
+  width: 2rem;
+  margin-right: 1rem;
+}
 .sobre .about-content .about-text p {
   padding-bottom: 2rem;
 }
