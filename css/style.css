@@ -69,7 +69,7 @@ header ul li {
 header ul li .cv {
   background: tomato;
   color: white;
-  padding: 1rem;
+  padding: 0.9rem;
 }
 header ul li .cv:hover {
   background: var(--main-color-darker);
