@@ -26,7 +26,7 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(28px, 2vw, 50px);
+  font-size: clamp(20px, 1.6vw, 40px);
 }
 
 a {
@@ -82,7 +82,7 @@ header ul li .cv:hover {
   transform: translate(-40%);
 }
 .menu a {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: black;
   display: block;
@@ -154,13 +154,13 @@ header ul li .cv:hover {
   line-height: 2rem;
   word-spacing: 0.2vw;
   text-align: justify;
-  font-size: clamp(16px, 1vw, 30px);
+  font-size: clamp(12px, 1vw, 30px);
 }
 .hero .center-content .hero-text h1 {
-  font-size: clamp(50px, 4vw, 65px);
+  font-size: clamp(40px, 3.5vw, 58px);
 }
 .hero .center-content .hero-text h2 {
-  font-size: clamp(28px, 2vw, 50px);
+  font-size: clamp(25px, 1.8vw, 45px);
 }
 .hero .center-content .hero-text .flex-cv {
   display: flex;
@@ -172,10 +172,11 @@ header ul li .cv:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 12rem;
+  width: 10rem;
+  font-size: 0.85rem;
   background: tomato;
   color: white;
-  padding: 1rem;
+  padding: 0.8rem;
   transition: 300ms ease;
   animation-duration: 3s;
   animation-iteration-count: infinite;

@@ -26,7 +26,7 @@ h6 {
 }
 
 h2 {
-	font-size: clamp(28px, 2vw, 50px);
+	font-size: clamp(20px, 1.6vw, 40px);
 }
 
 a {
@@ -92,7 +92,7 @@ header {
 	transform: translate(-40%);
 
 	a {
-		font-size: 1rem;
+		font-size: .9rem;
 		text-decoration: none;
 		color: black;
 		display: block;
@@ -176,15 +176,15 @@ header {
 				line-height: 2rem;
 				word-spacing: 0.2vw;
                 text-align: justify;
-				font-size: clamp(16px, 1vw, 30px);
+				font-size: clamp(12px, 1vw, 30px);
 				// background: tomato;
 
 			}
 			h1 {
-				font-size: clamp(50px, 4vw, 65px);
+				font-size: clamp(40px, 3.5vw, 58px);
 			}
 			h2 {
-				font-size: clamp(28px, 2vw, 50px);
+				font-size: clamp(25px, 1.8vw, 45px);
 			}
 
             .flex-cv{
@@ -197,10 +197,11 @@ header {
                     justify-content: center;
                     align-items: center;
                     flex-wrap: nowrap;
-                    width: 12rem;
+                    width: 10rem;
+					font-size: .85rem;
                     background: tomato;
                     color: white;
-                    padding: 1rem;
+                    padding: .8rem;
                     transition: 300ms ease;
 					animation-duration: 3s;
 					animation-iteration-count: infinite;
