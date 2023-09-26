@@ -4,7 +4,8 @@
   --second-font: "Open Sans", sans-serif;
   --main-color: rgb(128, 86, 179);
   --main-color-darker: rgb(107, 46, 183);
-  --main-color-light: rgba(128, 86, 179, 0.413) ;
+  --main-color-light: rgba(128, 86, 179, 0.413);
+  --second-bg: #001b27;
 }
 
 body {
@@ -130,7 +131,7 @@ header ul li .cv .pdf {
 .hero {
   width: 100vw;
   height: 90vh;
-  background: rgba(199, 199, 199, 0);
+  background: var();
   position: relative;
 }
 .hero::before {
@@ -235,7 +236,7 @@ header ul li .cv .pdf {
   flex-direction: column;
   width: 100vw;
   height: 85vh;
-  background: #001b27;
+  background: var(--main-color-light);
   padding: 2rem;
   align-items: center;
   justify-content: center;
@@ -256,7 +257,7 @@ header ul li .cv .pdf {
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
   cursor: pointer;
-  transition: 800ms ease;
+  transition: 500ms ease;
   padding: 1.4rem;
   border-radius: 0.8rem;
 }

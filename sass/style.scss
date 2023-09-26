@@ -4,7 +4,8 @@
 	--second-font: "Open Sans", sans-serif;
     --main-color: rgb(128, 86, 179);
     --main-color-darker: rgb(107, 46, 183);
-	--main-color-light: rgba(128, 86, 179, 0.413)
+	--main-color-light: rgba(128, 86, 179, 0.413);
+	--second-bg: #001b27;
 }
 
 body {
@@ -143,7 +144,7 @@ header {
 .hero {
 	width: 100vw;
 	height: 90vh;
-	background: #c7c7c700;
+	background: var();
 	position: relative;
 
 
@@ -264,7 +265,7 @@ header {
 	flex-direction: column;
 	width: 100vw;
 	height: 85vh;
-    background: #001b27;
+    background: var(--main-color-light);
 	padding: 2rem;
 	align-items: center;
 	justify-content: center;
@@ -287,7 +288,7 @@ header {
 		.project-item{
 			background: rgba(255, 255, 255, 0.726);
 			cursor: pointer;
-			transition: 800ms ease;
+			transition: 500ms ease;
 			padding: 1.4rem;
 			border-radius: .8rem;
 
@@ -295,10 +296,6 @@ header {
 				font-size: 1.5rem;
 				padding-bottom: 1.2rem;
 			}
-			
-			// &:hover{
-				// 	transform: scale(150%);
-				// }
 			
 		}
 	}
