@@ -206,7 +206,7 @@ header {
                     justify-content: center;
                     align-items: center;
                     flex-wrap: nowrap;
-                    width: 8rem;
+                    width: 9rem;
 					font-size: .85rem;
                     background: rgb(128, 86, 179);
 					border-radius: .5rem;
@@ -218,6 +218,7 @@ header {
 					transform-origin: bottom;
 					margin-top: 1rem;
 					z-index: 2;
+					// box-shadow: .1rem .1rem 1rem rgb(120, 120, 120);
 
                     &:hover{
                         background: var(--main-color-darker);
