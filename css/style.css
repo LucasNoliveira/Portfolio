@@ -255,6 +255,7 @@ header ul li .cv .pdf {
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
+  color: #001b27;
   cursor: pointer;
   transition: 500ms ease;
   padding: 1.4rem;
@@ -267,24 +268,53 @@ header ul li .cv .pdf {
 
 .sobre {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   padding: 2rem;
 }
-.sobre .about-img {
+.sobre .about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sobre .about-content .about-img {
   width: 50%;
   display: block;
-  padding: 2rem;
+  padding: 3rem;
 }
-.sobre .about-img img {
+.sobre .about-content .about-img img {
   width: 50rem;
   max-width: 100%;
 }
-.sobre .about-text {
+.sobre .about-content .about-text {
   width: 50%;
   padding: 2rem;
+}
+.sobre .about-content .about-text h2 {
+  color: #001b27;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.sobre .about-content .about-text p {
+  padding-bottom: 2rem;
+}
+.sobre .about-content .about-text .quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--main-color);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem 0.2rem 5rem 1rem;
+}
+.sobre .about-content .about-text .quote-box h3 {
+  font-size: 1rem;
+  padding: 0.4rem 0;
+  font-weight: 300;
+}
+.sobre .about-content .about-text .quote-box h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .contato {

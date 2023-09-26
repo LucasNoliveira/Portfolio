@@ -286,6 +286,7 @@ header {
 		
 		.project-item{
 			background: rgba(255, 255, 255, 0.726);
+			color: #001b27;
 			cursor: pointer;
 			transition: 500ms ease;
 			padding: 1.4rem;
@@ -303,29 +304,66 @@ header {
 .sobre{
     // background: #000;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 	padding: 2rem;
+	
+	.about-content{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 
-	.about-img{
-		width: 50%;
-		display: block;
-		// background: yellow;
-		padding: 2rem;
+		.about-img{
+			width: 50%;
+			display: block;
+			// background: yellow;
+			padding: 3rem;
+	
+			img{
+				width: 50rem;
+				max-width: 100%;
+			}
 
-		img{
-			width: 50rem;
-			max-width: 100%;
-		}
 	}
-
 	.about-text{
 		width: 50%;
 		padding: 2rem;
 		// background: #000;
+
+		h2{
+			color: #001b27;
+			padding-bottom: 1rem;
+			font-size: 2.5rem;
+		}
+
+		p{
+			padding-bottom: 2rem;
+		}
+
+		.quote-box{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background: var(--main-color);
+			color: white;
+			padding: 2rem;
+			border-radius: 1rem .2rem 5rem 1rem;
+
+			h3{
+				font-size: 1rem;
+				padding: .4rem 0;
+				font-weight: 300;
+			}
+
+			h4{
+				font-size: 1.5rem;
+				font-weight: 600;
+			}
+			
+		}
 	}
+	}
+
 }
 
 .contato{
