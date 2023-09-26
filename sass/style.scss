@@ -264,7 +264,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
-	height: 85vh;
+	height: 87vh;
     background: var(--main-color-light);
 	padding: 2rem;
 	align-items: center;
@@ -283,7 +283,6 @@ header {
 		grid-template-columns: repeat(3, 1fr);
 		gap: 1rem;
 		padding: .5rem;
-		z-index: 5;
 		
 		.project-item{
 			background: rgba(255, 255, 255, 0.726);
@@ -301,18 +300,40 @@ header {
 	}
 }
 
-// .sobre{
-//     // background: #000;
-//     height: 100vh;
-//     width: 100vw;
-// }
+.sobre{
+    // background: #000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    height: 100vh;
+    width: 100vw;
+	padding: 2rem;
 
-// .contato{
-//     // background: green;
-//     width: 100vw;
-//     height: 100vh;
+	.about-img{
+		width: 50%;
+		display: block;
+		// background: yellow;
+		padding: 2rem;
 
-// }
+		img{
+			width: 50rem;
+			max-width: 100%;
+		}
+	}
+
+	.about-text{
+		width: 50%;
+		padding: 2rem;
+		// background: #000;
+	}
+}
+
+.contato{
+    background: var(--main-color-light);
+    width: 100vw;
+    height: 100vh;
+
+}
 
 @media screen and (min-width: 1000px) {
 
