@@ -361,7 +361,7 @@ header ul li .cv .pdf {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background: violet;
+    background: rgb(130, 238, 173);
   }
   .projetos {
     padding: 0;
