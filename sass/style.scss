@@ -365,7 +365,7 @@ header {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			background: var(--main-color);
+			background: linear-gradient(to left,var(--main-color-light), var(--main-color), var(--main-color-darker)) right;;
 			color: white;
 			padding: 2rem;
 			border-radius: 1rem .2rem 5rem 1rem;
@@ -374,6 +374,7 @@ header {
 				font-size: 1rem;
 				padding: .4rem 0;
 				font-weight: 300;
+				
 			}
 
 			h4{

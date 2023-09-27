@@ -319,7 +319,7 @@ header ul li .cv .pdf {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--main-color);
+  background: linear-gradient(to left, var(--main-color-light), var(--main-color), var(--main-color-darker)) right;
   color: white;
   padding: 2rem;
   border-radius: 1rem 0.2rem 5rem 1rem;
