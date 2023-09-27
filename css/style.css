@@ -242,7 +242,6 @@ header ul li .cv .pdf {
   max-width: 100%;
   height: 87vh;
   background: var(--main-color-light);
-  padding: 2rem;
   align-items: center;
   justify-content: center;
   border-radius: 0.8rem;
@@ -252,11 +251,13 @@ header ul li .cv .pdf {
 }
 .projetos .project-grid {
   display: grid;
-  width: 70vw;
-  height: 50vh;
+  width: 80%;
+  height: fit-content;
+  max-height: 100%;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 0.5rem;
+  justify-content: center;
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
@@ -266,13 +267,11 @@ header ul li .cv .pdf {
   padding: 1.4rem;
   border-radius: 0.8rem;
   font-size: clamp(12px, 1vw, 30px);
-  line-height: 2rem;
-  word-spacing: 0.2vw;
+  text-align: justify;
 }
 .projetos .project-grid .project-item h3 {
-  color: var();
-  font-size: 1.5rem;
-  padding-bottom: 1.2rem;
+  color: var(--second-bg);
+  font-size: clamp(20px, 1.6vw, 40px);
 }
 
 .sobre {
@@ -378,9 +377,9 @@ header ul li .cv .pdf {
   }
   .projetos .project-grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
     width: 100%;
     height: 100%;
-    background: var(--main-color-light);
   }
   .sobre .about-content .about-text {
     display: block;
@@ -410,7 +409,13 @@ header ul li .cv .pdf {
 }
 @media screen and (max-width: 600px) {
   .projetos .project-grid {
+    gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .project-item {
+    line-height: 1.3rem;
+    word-spacing: 0.2vw;
+    font-size: clamp(12px, 1vw, 30px);
   }
 }
 
