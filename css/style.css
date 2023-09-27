@@ -361,7 +361,6 @@ header ul li .cv .pdf {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background: violet;
   }
   .projetos {
     padding: 0;
@@ -381,7 +380,6 @@ header ul li .cv .pdf {
     padding-top: 4.5rem;
   }
   .hero .center-content .hero-text {
-    margin: 0;
     display: flex;
     align-items: start;
   }
