@@ -275,6 +275,9 @@ header ul li .cv .pdf {
   border-bottom: 1.8px solid rgba(0, 27, 39, 0.2274509804);
   border-radius: 0.1rem;
 }
+.projetos .project-grid .project-item p {
+  padding-top: 1rem;
+}
 
 .sobre {
   display: flex;
@@ -414,10 +417,13 @@ header ul li .cv .pdf {
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
   }
-  .project-item {
+  .projetos .project-grid .project-item {
     line-height: 1.3rem;
     word-spacing: 0.2vw;
     font-size: clamp(12px, 1vw, 30px);
+  }
+  .projetos .project-grid .project-item p {
+    padding-top: 0.2rem;
   }
 }
 
