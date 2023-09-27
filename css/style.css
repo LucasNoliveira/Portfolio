@@ -261,6 +261,9 @@ header ul li .cv .pdf {
   transition: 500ms ease;
   padding: 1.4rem;
   border-radius: 0.8rem;
+  font-size: clamp(12px, 1vw, 30px);
+  line-height: 2rem;
+  word-spacing: 0.2vw;
 }
 .projetos .project-grid .project-item h3 {
   color: var();
@@ -292,6 +295,9 @@ header ul li .cv .pdf {
 .sobre .about-content .about-text {
   width: 50%;
   padding: 2rem;
+  line-height: 2rem;
+  word-spacing: 0.2vw;
+  font-size: clamp(12px, 1vw, 30px);
 }
 .sobre .about-content .about-text h2 {
   color: #001b27;
