@@ -184,12 +184,12 @@ header ul li .cv .pdf {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 9rem;
-  font-size: 0.85rem;
+  width: 10rem;
+  font-size: 0.95rem;
   background: rgb(128, 86, 179);
   border-radius: 0.5rem;
   color: white;
-  padding: 0.7rem 0.5rem;
+  padding: 0.8rem 0.5rem;
   transition: 300ms ease;
   animation-duration: 3s;
   animation-iteration-count: infinite;
