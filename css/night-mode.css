@@ -48,10 +48,11 @@ body.light-mode .sobre .about-text h2{
 }
 
 .toggle-align{
-    position: absolute;
+    position: fixed;
     width: fit-content;
     top: 1.5rem;
     right: 1rem;
+    z-index: 5;
 }
 
 .toggle {
