@@ -355,6 +355,9 @@ header ul li .cv .pdf {
     position: absolute;
     inset: 0;
   }
+  .projetos .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 768px) {
   header .logo {
@@ -378,6 +381,9 @@ header ul li .cv .pdf {
   .hero .flex-cv {
     max-width: 90%;
     margin: 0 auto;
+  }
+  .projetos .project-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
