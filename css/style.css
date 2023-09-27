@@ -55,9 +55,13 @@ header h1 {
 header .logo {
   color: rgb(122, 122, 241);
 }
+header nav {
+  width: 100vw;
+  background: #ff8888;
+}
 header ul {
   display: flex;
-  width: 50vw;
+  width: 100%;
   align-items: center;
   justify-content: flex-end;
   margin-right: 15rem;
@@ -87,7 +91,7 @@ header ul li .cv .pdf {
 .menu {
   background: #000;
   margin-left: 50%;
-  transform: translate(-40%);
+  transform: translate(-50%);
 }
 .menu a {
   font-size: 0.9rem;
@@ -354,17 +358,24 @@ header ul li .cv .pdf {
     width: 100vw;
     position: absolute;
     inset: 0;
+    padding: 10rem 10rem;
+  }
+  .projetos {
+    padding: 0;
   }
   .projetos .project-grid {
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  .sobre img {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
   header .logo {
     padding-top: 4.5rem;
-  }
-  .random-img {
-    display: none;
   }
   .hero-text {
     width: 100vw;
