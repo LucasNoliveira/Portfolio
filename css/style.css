@@ -354,8 +354,14 @@ header ul li .cv .pdf {
   header h1 {
     padding: 2rem 1rem;
   }
+  .hero {
+    height: 90vw;
+    display: flex;
+    align-items: flex-end;
+  }
   .hero .center-content {
     width: 100%;
+    height: 90%;
     padding: 0;
   }
   .hero .center-content .hero-text {
