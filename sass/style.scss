@@ -307,6 +307,9 @@ header {
 			h3{
 				color: var(--second-bg);
 				font-size: clamp(20px, 1.6vw, 40px);
+				border-bottom: 1.8px solid #001b273a;
+				border-radius: .1rem;
+
 			}
 			
 		}

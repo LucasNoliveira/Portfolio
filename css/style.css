@@ -272,6 +272,8 @@ header ul li .cv .pdf {
 .projetos .project-grid .project-item h3 {
   color: var(--second-bg);
   font-size: clamp(20px, 1.6vw, 40px);
+  border-bottom: 1.8px solid rgba(0, 27, 39, 0.2274509804);
+  border-radius: 0.1rem;
 }
 
 .sobre {
