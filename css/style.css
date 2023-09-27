@@ -381,7 +381,7 @@ header ul li .cv .pdf {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     height: 100%;
-    background: #000;
+    background: var(--main-color-light);
   }
   .sobre img {
     display: none;
@@ -404,6 +404,8 @@ header ul li .cv .pdf {
   .hero .flex-cv {
     max-width: 90%;
   }
+}
+@media screen and (max-width: 600px) {
   .projetos .project-grid {
     grid-template-columns: repeat(1, 1fr);
   }
