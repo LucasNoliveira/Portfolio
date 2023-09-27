@@ -284,12 +284,11 @@ header ul li .cv .pdf {
 }
 .sobre .about-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .sobre .about-content .about-img {
   width: 50%;
-  display: block;
   padding: 3rem;
 }
 .sobre .about-content .about-img img {
@@ -383,7 +382,11 @@ header ul li .cv .pdf {
     height: 100%;
     background: var(--main-color-light);
   }
-  .sobre img {
+  .sobre .about-content .about-text {
+    display: block;
+    width: 100%;
+  }
+  .sobre .about-img {
     display: none;
   }
 }

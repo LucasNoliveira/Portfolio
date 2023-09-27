@@ -322,13 +322,13 @@ header {
 	padding: 2rem;
 	
 	.about-content{
+		// background: #000;
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
 
 		.about-img{
 			width: 50%;
-			display: block;
 			// background: yellow;
 			padding: 3rem;
 	
@@ -454,8 +454,18 @@ header {
 		background: var(--main-color-light);
 	}
 
-	.sobre img{
+	.sobre .about-content{
+	}
+
+	.sobre .about-content .about-text{
+		display: block;
+		// background: #000;
+		width: 100%;
+	}
+
+	.sobre .about-img{
 		display: none;
+
 	}
 
 }
