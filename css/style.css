@@ -245,9 +245,13 @@ header ul li .cv .pdf {
   align-items: center;
   justify-content: center;
   border-radius: 0.8rem;
+  position: relative;
 }
 .projetos h2 {
+  position: absolute;
   color: white;
+  font-size: clamp(20px, 2vw, 50px);
+  top: 2rem;
 }
 .projetos .project-grid {
   display: grid;
@@ -383,7 +387,6 @@ header ul li .cv .pdf {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    height: 100%;
   }
   .sobre .about-content {
     width: 100vw;
