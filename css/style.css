@@ -2,9 +2,9 @@
   --bold-font: "Montserrat", sans-serif;
   --main-font: "Poppins", sans-serif;
   --second-font: "Open Sans", sans-serif;
-  --main-color: rgb(128, 86, 179);
-  --main-color-darker: rgb(107, 46, 183);
-  --main-color-light: rgba(128, 86, 179, 0.413);
+  --main-color: #6C63FF;
+  --main-color-darker: #453eca;
+  --main-color-light: #6b67b8b9;
   --second-bg: #001b27;
 }
 
@@ -79,7 +79,7 @@ header ul li .cv {
   padding: 0.5rem 0.9rem;
 }
 header ul li .cv:hover {
-  background: rgba(128, 86, 179, 0.385);
+  background: var(--main-color-light);
   color: white;
   border: 0.2rem solid rgba(0, 0, 0, 0);
 }
@@ -124,7 +124,7 @@ header ul li .cv .pdf {
   background: rgba(255, 255, 255, 0);
 }
 .menu-1 .normal::before {
-  background: rgb(128, 86, 179);
+  background: var(--main-color);
   transform-origin: 100% 50%;
 }
 .menu-1 .normal:hover::before {
@@ -190,7 +190,7 @@ header ul li .cv .pdf {
   flex-wrap: nowrap;
   width: 10rem;
   font-size: 0.95rem;
-  background: rgb(128, 86, 179);
+  background: var(--main-color);
   border-radius: 0.5rem;
   color: white;
   padding: 0.8rem 0.5rem;
@@ -260,7 +260,7 @@ header ul li .cv .pdf {
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
-  color: #001b27;
+  color: var(--second-bg);
   cursor: pointer;
   transition: 500ms ease;
   padding: 1.4rem;
@@ -304,7 +304,7 @@ header ul li .cv .pdf {
   font-size: clamp(12px, 1vw, 30px);
 }
 .sobre .about-content .about-text h2 {
-  color: #001b27;
+  color: var(--second-bg);
   padding-bottom: 1rem;
   font-size: 2.5rem;
 }

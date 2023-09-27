@@ -2,9 +2,9 @@
 	--bold-font: "Montserrat", sans-serif;
 	--main-font: "Poppins", sans-serif;
 	--second-font: "Open Sans", sans-serif;
-    --main-color: rgb(128, 86, 179);
-    --main-color-darker: rgb(107, 46, 183);
-	--main-color-light: rgba(128, 86, 179, 0.413);
+    --main-color: #6C63FF;
+    --main-color-darker: #453eca;
+	--main-color-light: #6b67b8b9;
 	--second-bg: #001b27;
 }
 
@@ -83,7 +83,7 @@ header {
 				padding: .5rem .9rem;
 
 				&:hover{
-					background: rgba(128, 86, 179, 0.385);
+					background: var(--main-color-light);
 					color: white;
 					border: .2rem solid rgba(0, 0, 0, 0);
 				}
@@ -135,7 +135,7 @@ header {
 	background: #ffffff00;
 	.normal {
 		&::before {
-			background: rgb(128, 86, 179);
+			background: var(--main-color);
 			transform-origin: 100% 50%;
 		}
 		&:hover {
@@ -215,7 +215,7 @@ header {
                     flex-wrap: nowrap;
                     width: 10rem;
 					font-size: .95rem;
-                    background: rgb(128, 86, 179);
+                    background: var(--main-color);
 					border-radius: .5rem;
                     color: white;
                     padding: .8rem .5rem;
@@ -293,7 +293,7 @@ header {
 		
 		.project-item{
 			background: rgba(255, 255, 255, 0.726);
-			color: #001b27;
+			color: var(--second-bg);
 			cursor: pointer;
 			transition: 500ms ease;
 			padding: 1.4rem;
@@ -347,7 +347,7 @@ header {
 		// background: #000;
 
 		h2{
-			color: #001b27;
+			color: var(--second-bg);
 			padding-bottom: 1rem;
 			font-size: 2.5rem;
 
