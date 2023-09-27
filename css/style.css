@@ -167,11 +167,11 @@ header ul li .cv .pdf {
 }
 .hero .center-content .hero-text h1 {
   font-size: clamp(40px, 3.5vw, 58px);
-  color: rgb(23, 23, 23);
+  color: var(--second-bg);
 }
 .hero .center-content .hero-text h2 {
   font-size: clamp(25px, 1.8vw, 45px);
-  color: rgb(46, 46, 46);
+  color: var(--main-color);
   font-weight: 600;
 }
 .hero .center-content .hero-text .flex-cv {
@@ -263,6 +263,7 @@ header ul li .cv .pdf {
   border-radius: 0.8rem;
 }
 .projetos .project-grid .project-item h3 {
+  color: var();
   font-size: 1.5rem;
   padding-bottom: 1.2rem;
 }
