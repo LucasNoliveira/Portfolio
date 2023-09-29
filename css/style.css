@@ -249,7 +249,7 @@ header ul li .cv .pdf {
 }
 .projetos h2 {
   position: absolute;
-  color: white;
+  color: var(--second-bg);
   font-size: clamp(20px, 2vw, 50px);
   top: 2rem;
 }
