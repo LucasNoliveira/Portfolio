@@ -6,6 +6,7 @@
   --main-color-darker: #453eca;
   --main-color-light: #6b67b8b9;
   --second-bg: #001b27;
+  --white-bg:rgb(230, 230, 230);
 }
 
 body {
@@ -40,7 +41,7 @@ header {
   z-index: 3;
   display: flex;
   align-items: center;
-  background: white;
+  background: var(--white-bg);
 }
 header h1 {
   display: flex;
@@ -137,6 +138,7 @@ header ul li .cv .pdf {
   height: 90vh;
   background: var();
   position: relative;
+  background: var(--white-bg);
 }
 .hero::before {
   content: "";

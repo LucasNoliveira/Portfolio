@@ -6,6 +6,7 @@
     --main-color-darker: #453eca;
 	--main-color-light: #6b67b8b9;
 	--second-bg: #001b27;
+	--white-bg:rgb(230, 230, 230);
 }
 
 body {
@@ -39,7 +40,7 @@ header {
 	z-index: 3;
 	display: flex;
 	align-items: center;
-	background: white;
+	background: var(--white-bg);
 	// border-bottom: 1px solid black;
 
 	h1 {
@@ -152,6 +153,7 @@ header {
 	height: 90vh;
 	background: var();
 	position: relative;
+	background: var(--white-bg);
 
 
 	&::before {
