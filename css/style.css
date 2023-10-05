@@ -391,6 +391,7 @@ header ul li .cv .pdf {
   padding: 1rem;
   height: 8rem;
   font-size: 1rem;
+  resize: none;
 }
 .contato fieldset form button {
   width: 100%;
