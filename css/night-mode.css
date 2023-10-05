@@ -7,6 +7,7 @@
     
     --toggleBtn-bgColor--day: var(--bgColor--day);
     --dark-color: #26293d;
+    --darker-color: #1b1d2b;
 }
 
 body.light-mode{
@@ -14,16 +15,19 @@ body.light-mode{
 }
 
 body.light-mode header{
-    background: var(--dark-color);
-    border-bottom: .1rem solid rgba(255, 255, 255, 0.243);
+    background: var(--darker-color);
 }
 
 body.light-mode header a{
     color: white;
 }
 
+body.light-mode .hero{
+    background: var(--darker-color);
+}
+
 body.light-mode .center-content{
-    background: var(--dark-color);
+    background: var(--darker-color);
 }
 
 body.light-mode .hero .center-content h1{
