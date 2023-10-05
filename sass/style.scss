@@ -403,21 +403,21 @@ header {
     height: 80vh;
 	background: rgb(226, 226, 226);
 	padding: 1.5rem;
+	background: #2f3357;
 
 	h2{
-		color: var(--second-bg);
-		padding-bottom: 1rem;
+		color: white;
 		font-size: clamp(25px, 2vw, 50px);
 		width: fit-content;
 	}
 	
 	fieldset{
 		display: flex;
+		flex-direction: column;
 		width: 70%;
 		height: 90%;
 		padding: 2rem;
 		border: none;
-		background: #eeeeee;
 		border-radius: 1rem;
 		justify-content: center;
 		align-items: center;
@@ -442,6 +442,7 @@ header {
 			input{
 				padding: 0.5rem;
 				width: 100%;
+				border: 0;
 			}
 
 			textarea{
