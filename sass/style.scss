@@ -293,7 +293,7 @@ header {
 	flex-direction: column;
 	width: 100vw;
 	max-width: 100%;
-	height: 87vh;
+	height: 95vh;
 	background: var(--white-bg);
 	align-items: center;
 	justify-content: center;
@@ -304,13 +304,37 @@ header {
 	h2 {
 		position: absolute;
 		color: var(--second-bg);
+		padding: .5rem 1rem;
 		font-size: clamp(20px, 2vw, 50px);
+		font-weight: 400;
 		top: 2rem;
+		border-bottom: solid 3px tomato;
 	}
 
 	p{
 		color: #33393b;
 		padding-top: .8rem;
+	}
+
+	.view-all{
+		background: var(--main-color);
+		color: white;
+		width: fit-content;
+		padding: 1rem;
+		justify-self: center;
+		transition: 300ms ease-in-out;
+		box-sizing: initial;
+		border: 1px solid transparent;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+
+		&:hover{
+			background: transparent;
+			border: 1px solid var(--second-bg);
+			color: black;
+			font-weight: 600;
+		}
 	}
 
 	.project-grid {
@@ -333,10 +357,9 @@ header {
 			text-align: justify;
 			overflow: hidden;
 
-
 			&:hover {
 				box-shadow: .5rem .5rem 5rem rgba(0, 0, 0, 0.13);
-				transition: 100ms ease;
+				// transition: 100ms ease-out;
 			}
 
 			&:hover h3 {
@@ -355,6 +378,7 @@ header {
 				font-size: clamp(20px, 1.6vw, 40px);
 				border-radius: .1rem;
 				padding-bottom: .3rem;
+				font-weight: 600
 
 			}
 
@@ -378,6 +402,7 @@ header {
 				width: 100%;
 				height: 100%;
 				position: absolute;
+				transition: 300ms ease-out;
 
 			}
 

@@ -242,7 +242,7 @@ header ul li .cv .pdf {
   flex-direction: column;
   width: 100vw;
   max-width: 100%;
-  height: 87vh;
+  height: 95vh;
   background: var(--white-bg);
   align-items: center;
   justify-content: center;
@@ -252,12 +252,34 @@ header ul li .cv .pdf {
 .projetos h2 {
   position: absolute;
   color: var(--second-bg);
+  padding: 0.5rem 1rem;
   font-size: clamp(20px, 2vw, 50px);
+  font-weight: 400;
   top: 2rem;
+  border-bottom: solid 3px tomato;
 }
 .projetos p {
   color: #33393b;
   padding-top: 0.8rem;
+}
+.projetos .view-all {
+  background: var(--main-color);
+  color: white;
+  width: fit-content;
+  padding: 1rem;
+  justify-self: center;
+  transition: 300ms ease-in-out;
+  box-sizing: initial;
+  border: 1px solid transparent;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.projetos .view-all:hover {
+  background: transparent;
+  border: 1px solid var(--second-bg);
+  color: black;
+  font-weight: 600;
 }
 .projetos .project-grid {
   display: grid;
@@ -280,7 +302,6 @@ header ul li .cv .pdf {
 }
 .projetos .project-grid .project-item:hover {
   box-shadow: 0.5rem 0.5rem 5rem rgba(0, 0, 0, 0.13);
-  transition: 100ms ease;
 }
 .projetos .project-grid .project-item:hover h3 {
   border-bottom: 1.8px solid var(--second-bg);
@@ -295,6 +316,7 @@ header ul li .cv .pdf {
   font-size: clamp(20px, 1.6vw, 40px);
   border-radius: 0.1rem;
   padding-bottom: 0.3rem;
+  font-weight: 600;
 }
 .projetos .project-grid .project-item .img-align {
   background: #000;
@@ -313,6 +335,7 @@ header ul li .cv .pdf {
   width: 100%;
   height: 100%;
   position: absolute;
+  transition: 300ms ease-out;
 }
 .projetos .project-grid .project-item .projetos-texto {
   box-sizing: initial;
