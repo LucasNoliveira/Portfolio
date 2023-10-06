@@ -262,27 +262,49 @@ header ul li .cv .pdf {
   max-height: 100%;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 0.5rem;
   justify-content: center;
+  padding-top: 2rem;
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
   color: var(--second-bg);
   cursor: pointer;
-  transition: 500ms ease;
-  padding: 1.4rem;
   border-radius: 0.8rem;
   font-size: clamp(12px, 1vw, 30px);
   text-align: justify;
 }
+.projetos .project-grid .project-item:hover h3 {
+  border-bottom: 1.8px solid var(--second-bg);
+}
 .projetos .project-grid .project-item h3 {
+  width: fit-content;
   color: var(--second-bg);
-  font-size: clamp(20px, 1.6vw, 40px);
-  border-bottom: 1.8px solid rgba(0, 27, 39, 0.2274509804);
+  font-size: clamp(20px, 2vw, 40px);
   border-radius: 0.1rem;
+  padding-bottom: 0.3rem;
 }
 .projetos .project-grid .project-item p {
   padding-top: 1rem;
+}
+.projetos .project-grid .project-item .img-align {
+  background: #000;
+  width: 100%;
+  height: 14rem;
+  position: relative;
+  overflow-y: hidden;
+  transition: 300ms ease;
+}
+.projetos .project-grid .project-item .project-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.projetos .project-grid .project-item .project-img:hover {
+  transform: scaley(120%);
+}
+.projetos .project-grid .project-item .projetos-texto {
+  box-sizing: initial;
+  padding: 1rem;
 }
 
 .sobre {
