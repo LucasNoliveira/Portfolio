@@ -308,6 +308,10 @@ header {
 		top: 2rem;
 	}
 
+	p{
+		color: #33393b;
+	}
+
 	.project-grid {
 		// background: green;
 		display: grid;
@@ -347,7 +351,7 @@ header {
 			h3 {
 				width: fit-content;
 				color: var(--second-bg);
-				font-size: clamp(20px, 2vw, 40px);
+				font-size: clamp(20px, 1.6vw, 40px);
 				border-radius: .1rem;
 				padding-bottom: .3rem;
 

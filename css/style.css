@@ -255,6 +255,9 @@ header ul li .cv .pdf {
   font-size: clamp(20px, 2vw, 50px);
   top: 2rem;
 }
+.projetos p {
+  color: #33393b;
+}
 .projetos .project-grid {
   display: grid;
   width: 80%;
@@ -288,7 +291,7 @@ header ul li .cv .pdf {
 .projetos .project-grid .project-item h3 {
   width: fit-content;
   color: var(--second-bg);
-  font-size: clamp(20px, 2vw, 40px);
+  font-size: clamp(20px, 1.6vw, 40px);
   border-radius: 0.1rem;
   padding-bottom: 0.3rem;
 }
