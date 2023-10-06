@@ -185,14 +185,19 @@ header {
 			// background: tomato;
 
 
-			span {
+			h1 span {
 				transition: 1s ease;
 				background: var(--main-color-light);
 			}
 
-			span:hover {
+			h1 span:hover {
 				background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, var(--main-color-light) 50%) right;
 				background-size: 200% 100%;
+			}
+
+			p span{
+				color: var(--main-color-darker);
+				font-weight: 600;
 			}
 
 			p {
@@ -495,32 +500,34 @@ header {
 	width: 100vw;
 	max-width: 100%;
 	height: 80vh;
-	background: rgb(226, 226, 226);
-	padding: 1.5rem;
-	background: #2f3357;
-
+	background-image: url(../css/img/abstract-envelope.svg);
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 1rem;
+	
 	h2 {
-		color: white;
+		color: var(--second-bg);
 		font-size: clamp(25px, 2vw, 50px);
 		width: fit-content;
 	}
-
+	
 	fieldset {
+		background: rgb(226, 226, 226);
 		display: flex;
 		flex-direction: column;
-		width: 70%;
-		height: 90%;
-		padding: 2rem;
+		width: 50%;
+		height: 100%;
+		padding: .5rem;
 		border: none;
 		border-radius: 1rem;
 		justify-content: center;
 		align-items: center;
-		margin: 0 50%;
-		transform: translate(-50%);
 
 		form {
 			// background: #000;
-			width: 90%;
+			width: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -537,6 +544,7 @@ header {
 				padding: 0.5rem;
 				width: 100%;
 				border: 0;
+				outline: none;
 			}
 
 			textarea {

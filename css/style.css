@@ -157,13 +157,17 @@ header ul li .cv .pdf {
 .hero .center-content .hero-text {
   width: 35%;
 }
-.hero .center-content .hero-text span {
+.hero .center-content .hero-text h1 span {
   transition: 1s ease;
   background: var(--main-color-light);
 }
-.hero .center-content .hero-text span:hover {
+.hero .center-content .hero-text h1 span:hover {
   background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, var(--main-color-light) 50%) right;
   background-size: 200% 100%;
+}
+.hero .center-content .hero-text p span {
+  color: var(--main-color-darker);
+  font-weight: 600;
 }
 .hero .center-content .hero-text p {
   line-height: 2rem;
@@ -403,30 +407,32 @@ header ul li .cv .pdf {
   width: 100vw;
   max-width: 100%;
   height: 80vh;
-  background: rgb(226, 226, 226);
-  padding: 1.5rem;
-  background: #2f3357;
+  background-image: url(../css/img/abstract-envelope.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
 }
 .contato h2 {
-  color: white;
+  color: var(--second-bg);
   font-size: clamp(25px, 2vw, 50px);
   width: fit-content;
 }
 .contato fieldset {
+  background: rgb(226, 226, 226);
   display: flex;
   flex-direction: column;
-  width: 70%;
-  height: 90%;
-  padding: 2rem;
+  width: 50%;
+  height: 100%;
+  padding: 0.5rem;
   border: none;
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
-  margin: 0 50%;
-  transform: translate(-50%);
 }
 .contato fieldset form {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -442,6 +448,7 @@ header ul li .cv .pdf {
   padding: 0.5rem;
   width: 100%;
   border: 0;
+  outline: none;
 }
 .contato fieldset form textarea {
   width: 100%;
