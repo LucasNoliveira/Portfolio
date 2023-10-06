@@ -276,6 +276,7 @@ header ul li .cv .pdf {
   box-sizing: initial;
   border: 1px solid transparent;
   position: absolute;
+  bottom: 2.5rem;
   left: 50%;
   transform: translate(-50%);
 }
