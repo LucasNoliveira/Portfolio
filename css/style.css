@@ -257,6 +257,7 @@ header ul li .cv .pdf {
 }
 .projetos p {
   color: #33393b;
+  padding-top: 0.8rem;
 }
 .projetos .project-grid {
   display: grid;
