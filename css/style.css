@@ -183,6 +183,7 @@ header ul li .cv .pdf {
   font-size: clamp(25px, 1.8vw, 45px);
   color: var(--main-color);
   font-weight: 600;
+  padding: 0.7rem 0 1rem 0;
 }
 .hero .center-content .hero-text .flex-cv {
   display: flex;
