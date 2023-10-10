@@ -59,6 +59,11 @@ body.light-mode .projetos h2{
     color: white;
 }
 
+body.light-mode .projetos .view-all-align a:hover{
+    border: solid 1px white;
+    color: white;
+}
+
 body.light-mode .why h2, body.light-mode .why .why-grid p{
     color: white;
 }
