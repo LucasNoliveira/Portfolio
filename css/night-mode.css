@@ -51,6 +51,10 @@ body.light-mode .sobre .about-text h2{
     color: white;
 }
 
+body.light-mode .why h2, body.light-mode .why .why-grid p{
+    color: white;
+}
+
 .toggle-align{
     position: fixed;
     width: fit-content;
