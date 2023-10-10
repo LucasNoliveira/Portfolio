@@ -67,6 +67,9 @@ body.light-mode .projetos .view-all-align a:hover{
 body.light-mode .why h2, body.light-mode .why .why-grid p{
     color: white;
 }
+body.light-mode .why .why-grid h3{
+    color: rgb(139, 139, 252);
+}
 
 .toggle-align{
     position: fixed;
