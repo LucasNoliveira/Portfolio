@@ -277,7 +277,7 @@ header ul li .cv .pdf {
   box-sizing: initial;
   border: 1px solid transparent;
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 1rem;
   left: 50%;
   transform: translate(-50%);
 }
@@ -296,6 +296,7 @@ header ul li .cv .pdf {
   gap: 1rem;
   justify-content: center;
   padding-top: 2rem;
+  max-height: 100%;
 }
 .projetos .project-grid .project-item {
   background: rgba(255, 255, 255, 0.726);
@@ -500,7 +501,7 @@ header ul li .cv .pdf {
   padding: 0.7rem 1rem;
   width: 100%;
   border: 0;
-  outline: none;
+  border-radius: 2rem;
 }
 .contato fieldset form textarea {
   width: 100%;
@@ -508,6 +509,7 @@ header ul li .cv .pdf {
   height: 8rem;
   font-size: 1rem;
   resize: none;
+  border-radius: 1rem;
 }
 .contato fieldset form button {
   width: 100%;
@@ -516,6 +518,9 @@ header ul li .cv .pdf {
   color: white;
   border: none;
   cursor: pointer;
+}
+.contato fieldset form button:hover {
+  background: var(--main-color-darker);
 }
 
 footer {
@@ -624,6 +629,15 @@ footer p {
   }
   .hero .flex-cv {
     max-width: 90%;
+  }
+  .contato {
+    background-image: url();
+  }
+  .contato h3 {
+    display: none;
+  }
+  .contato #fieldset {
+    width: 100vw;
   }
 }
 @media screen and (max-width: 600px) {

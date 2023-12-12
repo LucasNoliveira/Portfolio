@@ -332,7 +332,7 @@ header {
 		box-sizing: initial;
 		border: 1px solid transparent;
 		position: absolute;
-		bottom: 2.5rem;
+		bottom: 1rem;
 		left: 50%;
 		transform: translate(-50%);
 
@@ -354,6 +354,7 @@ header {
 		gap: 1rem;
 		justify-content: center;
 		padding-top: 2rem;
+		max-height: 100%;
 
 		.project-item {
 			background: rgba(255, 255, 255, 0.726);
@@ -607,7 +608,8 @@ header {
 				padding: 0.7rem 1rem;
 				width: 100%;
 				border: 0;
-				outline: none;
+				// outline: none;
+				border-radius: 2rem;
 			}
 
 			textarea {
@@ -616,6 +618,7 @@ header {
 				height: 8rem;
 				font-size: 1rem;
 				resize: none;
+				border-radius: 1rem;
 			}
 
 			button {
@@ -625,6 +628,10 @@ header {
 				color: white;
 				border: none;
 				cursor: pointer;
+
+				&:hover{
+					background: var(--main-color-darker);
+				}
 			}
 		}
 	}
@@ -772,6 +779,17 @@ footer {
 		max-width: 90%;
 	}
 
+	.contato{
+		background-image: url();
+	
+	h3{
+		display: none;
+	}
+
+		#fieldset{
+			width: 100vw;
+		}
+	}
 }
 
 @media screen and (max-width:600px) {
