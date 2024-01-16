@@ -1,3 +1,5 @@
+alert('Este site está sendo refatorado e portanto está em desenvolvimento! Fique ligado às próximas atualizações :)')
+
 const whiteBody = document.body;
 const whiteContainer = document.body.querySelector('.center-content');
 const themeButton = document.body.querySelector('.toggle');
