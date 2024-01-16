@@ -522,12 +522,13 @@ header {
 		grid-template-columns: repeat(3, 1fr);
 		gap: 6rem;
 		// background: #000;
-
+		
 		
 		.why-item{
 			// background: rgb(212, 54, 54);
+			max-width: 100%;
 			border-radius: .8rem;
-			height: 20rem;
+			height: fit-content;
 			
 			h3{
 				font-weight: 600;
@@ -806,6 +807,11 @@ footer {
 				padding-top: .2rem;
 			}
 		}
+	}
+
+	body .why .why-grid{
+		grid-template-columns: repeat(1fr, 1);
+		background: green;
 	}
 
 }
